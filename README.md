@@ -6,6 +6,7 @@
 * https://github.com/latexstudio/LaTeXPackages-CN 宏包中文翻译
 * https://github.com/latexstudio/LaTeXFAQ-cn 中文社区
 * https://github.com/latexstudio/10Hour-LaTeX
+* http://yuanjun.farbox.com/latex/latex_bst 自定义bib style (bst)
 
 ## 插入动画
 https://github.com/lonelybag/Latex_lonelybag/blob/dev/Script/001_gif/001gif.tex
