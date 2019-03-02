@@ -1,0 +1,37 @@
+\documentclass[UTF8]{ctexbook}
+
+\usepackage[titles]{tocloft} % 目录
+\usepackage{graphicx} % An example of a floating figure using the graphicx package.
+\usepackage{animate}
+
+\renewcommand\thesection{\arabic{section}}
+% arabic 阿拉伯数字 roman 小写的罗马数字 Roman 大写的罗马数字 alph 小写字母  Alph 大写字母
+\begin{document}
+% ----------- 封面 ---------------
+\begin{center}  % 居中
+    \quad \\
+    \vspace{3cm}
+    \hspace{3cm}\Huge{A NOTE of MASTER}\\
+    \vspace{5cm}
+    \hspace{3cm}\Large{@LonelyBag}\\
+    \vspace{0.5cm}
+    \hspace{3cm}\Large {2018.3.2}
+    \clearpage  % 清除当页页码
+\end{center}
+
+\thispagestyle{empty}
+\clearpage  % 清除当页页码
+% ----------- 封面 ---------------
+
+\tableofcontents
+
+\section{COMSOL}
+\begin{figure}[!htb]
+	\centering
+	\animategraphics[controls, autoplay, loop , width=0.6\linewidth]{8}{Figure//Fig2//10}{01}{19}
+	\vspace{-0.3cm}
+	\caption{This is an awesome pdf with a gif - by lonelybag.}\label{fig:1}
+\end{figure}
+\subsection{常用网站}
+
+\end{document}
