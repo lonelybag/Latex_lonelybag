@@ -1,2 +1,5 @@
-\contentsline {section}{\numberline {1}COMSOL}{3}
-\contentsline {subsection}{\numberline {1.1}常用网站}{3}
+\contentsline {section}{\numberline {1}快速抓住热点}{4}
+\contentsline {subsection}{\numberline {1.1}传统方式}{4}
+\contentsline {subsection}{\numberline {1.2}辅助工具}{4}
+\contentsline {section}{\numberline {2}COMSOL}{4}
+\contentsline {subsection}{\numberline {2.1}常用网站}{4}
