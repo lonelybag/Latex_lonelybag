@@ -1,6 +1,7 @@
 \documentclass[UTF8]{ctexbook}
 
 \usepackage[titles]{tocloft} % 目录
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
 % \usepackage{graphicx} % An example of a floating figure using the graphicx package.
 \usepackage{animate}
 \usepackage{enumerate}
@@ -25,15 +26,28 @@
 \clearpage  % 清除当页页码
 % ----------- 目录 ---------------
 \tableofcontents
+\clearpage
 \newpage
+\quad
+\newpage
+\clearpage
 % ----------- 正文 ---------------
-\section{快速抓住热点}
+\section{快速抓住研究热点}
 研究热度往往体现在论文的发表数量中，但是一个领域中的主要研究方向却往往很难仅通过阅读论文而获得全面认识。换句话说，统计论文中的研究方向远比统计发表数量重要。为了解决这一问题，研究人员也提出了若干解决方案。
 
 \subsection{传统方式}
 词典，是语言学家针对特定语言而将常见字词按照一定的逻辑编纂起来的文本工具。科学家也有自己的词典，他们针对某一特定研究领域对热点论文进行总结归纳并提出相应见解，最终以论文的形式发表，这就是文献综述。
 
-通过阅读文献综述，可以快速地对所关注的研究领域形成大致了解，而这也是快速抓住研究热点的传统方式。
+通过阅读文献综述，可以快速地对所关注的研究领域形成大致了解，而这也是快速抓住研究热点的传统方式。通过限定检索词可以较为有效地检索该类型的文章，对于英文文献，其检索词可以选择如下几种：
+\begin{itemize}
+	\item Review
+	\item Challenge
+	\item Survey
+	\item Statement
+	\item ... ...
+\end{itemize}
+
+这样，再加上一些限定词（如：WPT）就可以有效地检索出特定研究领域的文献综述。但是，这样检索出的文献往往比较松散，并且会使我们忽略一些更有价值的paper。因此，有时（甚至往往）会采用辅助工具进行这项工作。
 
 \subsection{辅助工具}
 为了快速地了解一个领域的研究热点，仅仅通过 {\bf 关键词检索 - 论文下载 - 阅读 - 二次检索} 这类流程是不能达到“快速”的要求的，真正有效的方法是借助论文分析工具，这类工具一般有如下特点：
@@ -44,7 +58,11 @@
 	\item 多功能
 \end{itemize}
 
+常用的辅助工具有：\href{https://zhuanlan.zhihu.com/p/20902898}{HistCite Pro 2.1} 以及 \href{https://zhuanlan.zhihu.com/p/30970993}{VOSviewer}（或者参考\href{https://www.jianshu.com/p/e20f3f1d17d8}{这个}）
+
+
 \section{COMSOL}
+
 \begin{figure}[!htb]
 	\centering
 	\animategraphics[controls, autoplay, loop , width=0.6\linewidth]{8}{Figure//Fig2//10}{01}{19}
@@ -52,5 +70,10 @@
 	\caption{This is an awesome pdf with a gif - by lonelybag.}\label{fig:1}
 \end{figure}
 \subsection{常用网站}
+
+\section{文献写作}
+\subsection{写作工具}
+\subsection{写作流程}
+\subsection{参考文献}
 
 \end{document}
