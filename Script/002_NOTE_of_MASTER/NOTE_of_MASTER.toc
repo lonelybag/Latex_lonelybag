@@ -1,9 +1,0 @@
-\contentsline {section}{\numberline {1}快速抓住研究热点}{5}{section.0.1}
-\contentsline {subsection}{\numberline {1.1}传统方式}{5}{subsection.0.1.1}
-\contentsline {subsection}{\numberline {1.2}辅助工具}{5}{subsection.0.1.2}
-\contentsline {section}{\numberline {2}COMSOL}{6}{section.0.2}
-\contentsline {subsection}{\numberline {2.1}常用网站}{6}{subsection.0.2.1}
-\contentsline {section}{\numberline {3}文献写作}{6}{section.0.3}
-\contentsline {subsection}{\numberline {3.1}写作工具}{6}{subsection.0.3.1}
-\contentsline {subsection}{\numberline {3.2}写作流程}{6}{subsection.0.3.2}
-\contentsline {subsection}{\numberline {3.3}参考文献}{6}{subsection.0.3.3}

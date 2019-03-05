@@ -1,0 +1,54 @@
+\documentclass[UTF8]{ctexbook}
+
+\usepackage{tikzCodeBlock}
+\usepackage{lipsum}
+
+\usepackage[letterpaper,textwidth=7in]{geometry}
+
+\lstdefinestyle{ltex}{
+	language = [LaTeX]TeX,
+	commentstyle = \color{red}
+}
+
+\lstdefinestyle{cstyle}{
+	language = C,
+	commentstyle = \color{gray},
+  numbers = left
+}
+
+
+\begin{document}
+
+\lipsum[1]
+
+\begin{tikzCodeBlock}[title = {Hello, world!}, listing style = ltex]
+\documentclass{article}
+
+% All LaTeX documents including
+% tikz() output must use this
+% package!
+\usepackage{tikz}
+
+\begin{document}
+  \begin{figure}[!h]
+    \centering
+
+    % The output from tikz()
+    % is imported here.
+    \input{simpleEx.tex}
+
+    \caption{Simple Example}
+  \end{figure}
+\end{document}
+\end{tikzCodeBlock}
+
+\lipsum[2]
+
+\tikzCodeInput[%
+  title = {Example of input from a file},
+  footer = {All done!},
+  listing style = cstyle%
+]
+  {examples/which.c}
+
+\end{document}
