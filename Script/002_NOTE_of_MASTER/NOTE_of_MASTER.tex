@@ -14,9 +14,10 @@
 	\quad \\
 	\vspace{3cm}
 	\hspace{3cm}\Huge{A NOTE of MASTER}\\
-	\Huge{我是一个皮儿} \\
+	\hspace{3cm}\Huge{菜鸟硕士手册} \\
+	\hspace{3cm}\large{V1.0} \\
 	\vspace{5cm}
-	\hspace{3cm}\Large{@LonelyBag}\\
+	\hspace{3cm}\href{https://github.com/lonelybag/Latex_lonelybag}{\Large{@LonelyBag}}\\
 	\vspace{0.5cm}
 	\hspace{3cm}\Large {2018.3.2}
 	\clearpage  % 清除当页页码
@@ -58,7 +59,40 @@
 	\item 多功能
 \end{itemize}
 
-常用的辅助工具有：\href{https://zhuanlan.zhihu.com/p/20902898}{HistCite Pro 2.1} 以及 \href{https://zhuanlan.zhihu.com/p/30970993}{VOSviewer}（或者参考\href{https://www.jianshu.com/p/e20f3f1d17d8}{这个}）
+常用的辅助工具有：\href{https://zhuanlan.zhihu.com/p/20902898}{HistCite Pro 2.1} 以及 \href{https://zhuanlan.zhihu.com/p/30970993}{VOSviewer}。这两种工具的最大区别就是HistCite Pro 2.1仅支持英文文献，但VOSviewer不仅支持英文还支持中国知网导出的中文文献。笔者只用过HistCite Pro 2.1，如果读者希望对中文文献也进行处理，可以参考\href{https://www.jianshu.com/p/e20f3f1d17d8}{这个}）。下面我通过若干gif对软件的使用进行介绍。
+\subsubsection{安装}
+安装就不赘述了，参考\href{https://zhuanlan.zhihu.com/p/20902898}{这里}就够了。
+\subsubsection{导出文献}
+这一步是初学者最容易出现差错的地方，这是因为HistCite Pro 2.1对源数据的格式要求非常严谨，而且它仅支持由Web of Science导出的文献格式。下面我通过Step-by-step的方式展示如何从WOS导出符合要求的格式。
+
+第一步：选择检索{\bf 数据库}并给定检索词，一般首次使用需要我们对整个领域有一个宏观认识，因此检索词可以非常概括，比如我使用的wireless power，如图\ref{fig:1}。
+
+\begin{figure}[!htb]
+	\centering
+	\animategraphics[autoplay, loop , width=0.9\linewidth]{8}{Figure//WOSsearch//10}{01}{80}
+	\vspace{-0.3cm}
+	\caption{WOS检索关键词：wireless power}\label{fig:1}
+\end{figure}
+
+第二步：选择正确格式，下载，如图\ref{fig:2}所示。值得注意的是，WOS仅支持一次性导出500篇文献，所以更多的文献需要多次下载。
+
+\begin{figure}[!htb]
+	\centering
+	\animategraphics[autoplay, loop , width=0.9\linewidth]{8}{Figure//WOSdownload//00}{01}{98}
+	\vspace{-0.3cm}
+	\caption{WOS下载特定格式检索结果}\label{fig:2}
+\end{figure}
+
+第三步，需要将下载获得的所有txt移动至TXT文件夹，然后打开main.exe，此时输入1并回车，软件将自动打开程序界面，接着点击gragh maker，修改count将对分析的文献数量进行控制，一般来说，取得大一点可以获得更多的信息。注意到，select by一栏有两个选项：LCS和GCS，LCS是Local Citation Score的缩写，代表某篇文献在本地数据集（也就是我们所下载的txt集合）的总被引次数，而GCS是Global Citation Score的缩写，代表在WOS数据库中的总被引次数。一般来说，由于本地数据集是根据我们的关键词获得的，因此LCS排名更能够反映某一学科的发展。
+
+\begin{figure}[!htb]
+	\centering
+	\animategraphics[autoplay, loop , width=0.9\linewidth]{8}{Figure//Hmaker//00}{01}{57}
+	\vspace{-0.3cm}
+	\caption{WOS下载特定格式检索结果}\label{fig:3}
+\end{figure}
+
+\section{常用网站}
 
 
 \section{COMSOL}
@@ -67,9 +101,8 @@
 	\centering
 	\animategraphics[controls, autoplay, loop , width=0.6\linewidth]{8}{Figure//Fig2//10}{01}{19}
 	\vspace{-0.3cm}
-	\caption{This is an awesome pdf with a gif - by lonelybag.}\label{fig:1}
+	\caption{This is an awesome pdf with a gif - by lonelybag.}\label{fig:39}
 \end{figure}
-\subsection{常用网站}
 
 \section{文献写作}
 \subsection{写作工具}

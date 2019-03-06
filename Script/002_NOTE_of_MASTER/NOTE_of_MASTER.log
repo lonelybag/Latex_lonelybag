@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2018.7.9)  4 MAR 2019 22:26
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2018.7.9)  6 MAR 2019 22:16
 entering extended mode
 **d:/Desktop/Latex_lonelybag/Script/002_NOTE_of_MASTER/NOTE_of_MASTER
 (d:/Desktop/Latex_lonelybag/Script/002_NOTE_of_MASTER/NOTE_of_MASTER.tex
@@ -782,6 +782,8 @@ Requested font "SimHei/I/ICU" at 26.1pt
 .................................................
 Requested font "SimSun/ICU:script=latn;language=DFLT;mapping=tex-text;" at 26.1pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "[lmroman12-regular]:mapping=tex-text" at 12.05pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-regular.otf
 Requested font "[lmroman17-regular]:mapping=tex-text" at 15.06pt
  -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman17-regular.otf
 Requested font "[lmromanslant10-regular]:mapping=tex-text" at 10.54pt
@@ -858,7 +860,7 @@ Requested font "cmr10" at 10.54pt
 
 
 LaTeX Font Warning: Font shape `EU1/SimSun(0)/m/sl' undefined
-(Font)              using `EU1/SimSun(0)/m/n' instead on input line 32.
+(Font)              using `EU1/SimSun(0)/m/n' instead on input line 33.
 
 [4
 
@@ -879,8 +881,6 @@ Requested font "SimSun/ICU" at 15.06pt
 .................................................
 Requested font "SimHei/ICU:script=latn;language=DFLT;mapping=tex-text;" at 15.06pt
  -> C:/WINDOWS/Fonts/simhei.ttf
-Requested font "[lmroman12-regular]:mapping=tex-text" at 12.05pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-regular.otf
 Requested font "[lmroman12-bold]:mapping=tex-text" at 12.05pt
  -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-bold.otf
 Requested font "SimSun" at 12.05pt
@@ -912,119 +912,1299 @@ Requested font "SimHei/ICU:script=latn;language=DFLT;mapping=tex-text;" at 10.54
  [5
 
 ]
-File: Figure//Fig2//1001.jpg Graphic file (type QTm)
- <use  "Figure//Fig2//1001.jpg" >
+File: Figure//WOSsearch//1001.jpg Graphic file (type QTm)
+ <use  "Figure//WOSsearch//1001.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1002.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1002.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1003.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1003.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1004.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1004.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1005.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1005.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1006.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1006.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1007.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1007.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1008.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1008.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1009.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1009.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1010.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1010.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1011.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1011.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1012.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1012.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1013.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1013.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1014.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1014.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1015.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1015.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1016.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1016.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1017.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1017.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1018.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1018.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1019.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1019.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1020.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1020.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1021.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1021.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1022.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1022.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1023.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1023.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1024.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1024.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1025.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1025.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1026.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1026.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1027.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1027.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1028.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1028.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1029.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1029.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1030.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1030.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1031.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1031.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1032.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1032.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1033.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1033.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1034.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1034.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1035.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1035.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1036.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1036.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1037.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1037.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1038.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1038.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1039.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1039.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1040.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1040.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1041.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1041.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1042.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1042.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1043.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1043.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1044.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1044.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1045.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1045.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1046.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1046.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1047.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1047.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1048.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1048.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1049.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1049.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1050.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1050.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1051.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1051.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1052.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1052.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1053.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1053.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1054.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1054.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1055.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1055.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1056.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1056.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1057.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1057.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1058.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1058.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1059.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1059.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1060.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1060.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1061.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1061.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1062.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1062.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1063.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1063.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1064.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1064.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1065.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1065.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1066.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1066.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1067.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1067.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1068.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1068.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1069.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1069.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1070.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1070.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1071.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1071.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1072.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1072.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1073.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1073.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1074.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1074.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1075.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1075.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1076.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1076.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1077.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1077.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1078.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1078.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1079.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1079.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSsearch//1080.jpg Graphic file (type QTm)
+<use  "Figure//WOSsearch//1080.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 72.
+
+File: Figure//WOSdownload//0001.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0001.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0002.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0002.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0003.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0003.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0004.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0004.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0005.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0005.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0006.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0006.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0007.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0007.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0008.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0008.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0009.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0009.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0010.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0010.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0011.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0011.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0012.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0012.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0013.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0013.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0014.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0014.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0015.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0015.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0016.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0016.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0017.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0017.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0018.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0018.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0019.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0019.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0020.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0020.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0021.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0021.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0022.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0022.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0023.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0023.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0024.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0024.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0025.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0025.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0026.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0026.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0027.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0027.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0028.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0028.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0029.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0029.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0030.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0030.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0031.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0031.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0032.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0032.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0033.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0033.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0034.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0034.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0035.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0035.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0036.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0036.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0037.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0037.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0038.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0038.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0039.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0039.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0040.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0040.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0041.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0041.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0042.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0042.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0043.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0043.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0044.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0044.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0045.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0045.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0046.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0046.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0047.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0047.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0048.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0048.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0049.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0049.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0050.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0050.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0051.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0051.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0052.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0052.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0053.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0053.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0054.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0054.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0055.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0055.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0056.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0056.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0057.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0057.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0058.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0058.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0059.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0059.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0060.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0060.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0061.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0061.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0062.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0062.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0063.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0063.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0064.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0064.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0065.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0065.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0066.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0066.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0067.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0067.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0068.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0068.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0069.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0069.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0070.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0070.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0071.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0071.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0072.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0072.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0073.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0073.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0074.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0074.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0075.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0075.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0076.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0076.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0077.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0077.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0078.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0078.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0079.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0079.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0080.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0080.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0081.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0081.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0082.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0082.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0083.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0083.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0084.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0084.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0085.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0085.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0086.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0086.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0087.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0087.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0088.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0088.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0089.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0089.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0090.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0090.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0091.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0091.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0092.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0092.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0093.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0093.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0094.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0094.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0095.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0095.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0096.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0096.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0097.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0097.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+File: Figure//WOSdownload//0098.jpg Graphic file (type QTm)
+<use  "Figure//WOSdownload//0098.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 81.
+
+[6]
+File: Figure//Hmaker//0001.jpg Graphic file (type QTm)
+ <use  "Figure//Hmaker//0001.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0002.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0002.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0003.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0003.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0004.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0004.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0005.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0005.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0006.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0006.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0007.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0007.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0008.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0008.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0009.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0009.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0010.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0010.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0011.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0011.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0012.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0012.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0013.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0013.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0014.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0014.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0015.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0015.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0016.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0016.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0017.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0017.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0018.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0018.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0019.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0019.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0020.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0020.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0021.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0021.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0022.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0022.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0023.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0023.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0024.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0024.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0025.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0025.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0026.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0026.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0027.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0027.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0028.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0028.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0029.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0029.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0030.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0030.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0031.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0031.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0032.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0032.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0033.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0033.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0034.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0034.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0035.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0035.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0036.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0036.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0037.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0037.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0038.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0038.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0039.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0039.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0040.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0040.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0041.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0041.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0042.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0042.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0043.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0043.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0044.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0044.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0045.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0045.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0046.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0046.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0047.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0047.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0048.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0048.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0049.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0049.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0050.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0050.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0051.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0051.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0052.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0052.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0053.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0053.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0054.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0054.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0055.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0055.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0056.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0056.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Hmaker//0057.jpg Graphic file (type QTm)
+<use  "Figure//Hmaker//0057.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 90.
+
+File: Figure//Fig2//1001.jpg Graphic file (type QTm)
+<use  "Figure//Fig2//1001.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1002.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1002.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1003.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1003.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1004.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1004.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1005.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1005.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1006.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1006.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1007.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1007.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1008.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1008.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1009.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1009.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1010.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1010.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1011.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1011.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1012.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1012.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1013.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1013.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1014.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1014.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1015.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1015.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1016.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1016.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1017.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1017.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1018.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1018.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
 File: Figure//Fig2//1019.jpg Graphic file (type QTm)
 <use  "Figure//Fig2//1019.jpg" >
 
-Package xetex.def Warning: No clipping support in XeTeX yet on input line 68.
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 102.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-[6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+ [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (d:\Desktop\Latex_lonelybag\Script\002_NOTE_of_MASTER\NOTE_of_MASTER.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 112.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20693 strings out of 430478
- 400099 string characters out of 3191503
- 447682 words of memory out of 3000000
- 23553 multiletter control sequences out of 15000+200000
+ 21566 strings out of 430478
+ 418674 string characters out of 3191503
+ 575095 words of memory out of 3000000
+ 24263 multiletter control sequences out of 15000+200000
  4836 words of font info for 52 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,7n,45p,875b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on NOTE_of_MASTER.pdf (6 pages).
+Output written on NOTE_of_MASTER.pdf (8 pages).

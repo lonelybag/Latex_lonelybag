@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.7.8)  3 MAR 2019 20:50
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2018.7.9)  6 MAR 2019 17:53
 entering extended mode
 **d:/Desktop/Latex_lonelybag/Script/001_gif/001gif
 (d:/Desktop/Latex_lonelybag/Script/001_gif/001gif.tex
@@ -9,14 +9,14 @@ Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (D:\CTEX\MiKTeX\tex\latex\base\size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -32,15 +32,9 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ) (D:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
- (D:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
- (D:\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
-) (D:\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
+Package graphics Info: Driver file: xetex.def on input line 91.
+ (D:\CTEX\MiKTeX\tex\xelatex\xetex-def\xetex.def
+File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -50,7 +44,7 @@ Package: animate 2011/12/20 PDF animations from files and inline graphics
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 ) (D:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 ) (D:\CTEX\MiKTeX\tex\latex\oberdiek\ifdraft.sty
 Package: ifdraft 2008/08/11 v1.3 Switch for option draft (HO)
 ) (D:\CTEX\MiKTeX\tex\latex\tools\calc.sty
@@ -75,39 +69,24 @@ Package: animfp 2009/07/23 fixed point addition for animate.sty
 \afp@rega=\count96
 \afp@regb=\count97
 \afp@regs=\count98
-) (D:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count99
-\scratchdimen=\dimen107
-\scratchbox=\box26
-\nofMPsegments=\count100
-\nofMParguments=\count101
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count102
-\MPscratchDim=\dimen108
-\MPnumerator=\count103
-\makeMPintoPDFobject=\count104
-\everyMPtoPDFconversion=\toks16
 )
-\@anim@@fields=\count105
-\@anim@@ocgs=\count106
-\@anim@@posterocgs=\count107
-\@anim@box=\box27
-\@anim@tmpdima=\dimen109
-\@anim@tmpdimb=\dimen110
-\@anim@num=\count108
-\@anim@curframe=\count109
-\@anim@curframe@zb=\count110
-\@anim@resize=\count111
-\@anim@skipfram=\count112
-\@anim@mulframecnt=\count113
+\@anim@fieldnum=\count99
+\@anim@box=\box26
+\@anim@tmpdima=\dimen107
+\@anim@tmpdimb=\dimen108
+\@anim@num=\count100
+\@anim@curframe=\count101
+\@anim@curframe@zb=\count102
+\@anim@resize=\count103
+\@anim@skipfram=\count104
+\@anim@mulframecnt=\count105
 \@anim@@tmlnfile=\read1
-\@anim@tmpcnt=\count114
-\c@@anim@ltxcnt=\count115
-\@anim@curlayer=\count116
-\@anim@lineno=\count117
-\@anim@begin=\toks17
-\@anim@end=\toks18
+\@anim@tmpcnt=\count106
+\c@@anim@ltxcnt=\count107
+\@anim@curlayer=\count108
+\@anim@lineno=\count109
+\@anim@begin=\toks15
+\@anim@end=\toks16
 ) (d:\Desktop\Latex_lonelybag\Script\001_gif\001gif.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -121,21 +100,185 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
- <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1011.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1012.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1013.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1014.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1015.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1016.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1017.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1018.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1019.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1020.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1021.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1022.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1023.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1024.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1025.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1026.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1027.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1028.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1029.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1030.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1031.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1032.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1033.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1034.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1035.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1036.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1037.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1038.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1039.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1040.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1041.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1042.jpg> <d:/Desktop/Latex_lonelybag/Script/001_gif/gif//1043.jpg> [1
+File: gif//1011.jpg Graphic file (type QTm)
+ <use  "gif//1011.jpg" >
 
-{D:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}] (d:\Desktop\Latex_lonelybag\Script\001_gif\001gif.aux) ) 
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1012.jpg Graphic file (type QTm)
+<use  "gif//1012.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1013.jpg Graphic file (type QTm)
+<use  "gif//1013.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1014.jpg Graphic file (type QTm)
+<use  "gif//1014.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1015.jpg Graphic file (type QTm)
+<use  "gif//1015.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1016.jpg Graphic file (type QTm)
+<use  "gif//1016.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1017.jpg Graphic file (type QTm)
+<use  "gif//1017.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1018.jpg Graphic file (type QTm)
+<use  "gif//1018.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1019.jpg Graphic file (type QTm)
+<use  "gif//1019.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1020.jpg Graphic file (type QTm)
+<use  "gif//1020.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1021.jpg Graphic file (type QTm)
+<use  "gif//1021.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1022.jpg Graphic file (type QTm)
+<use  "gif//1022.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1023.jpg Graphic file (type QTm)
+<use  "gif//1023.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1024.jpg Graphic file (type QTm)
+<use  "gif//1024.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1025.jpg Graphic file (type QTm)
+<use  "gif//1025.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1026.jpg Graphic file (type QTm)
+<use  "gif//1026.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1027.jpg Graphic file (type QTm)
+<use  "gif//1027.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1028.jpg Graphic file (type QTm)
+<use  "gif//1028.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1029.jpg Graphic file (type QTm)
+<use  "gif//1029.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1030.jpg Graphic file (type QTm)
+<use  "gif//1030.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1031.jpg Graphic file (type QTm)
+<use  "gif//1031.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1032.jpg Graphic file (type QTm)
+<use  "gif//1032.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1033.jpg Graphic file (type QTm)
+<use  "gif//1033.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1034.jpg Graphic file (type QTm)
+<use  "gif//1034.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1035.jpg Graphic file (type QTm)
+<use  "gif//1035.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1036.jpg Graphic file (type QTm)
+<use  "gif//1036.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1037.jpg Graphic file (type QTm)
+<use  "gif//1037.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1038.jpg Graphic file (type QTm)
+<use  "gif//1038.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1039.jpg Graphic file (type QTm)
+<use  "gif//1039.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1040.jpg Graphic file (type QTm)
+<use  "gif//1040.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1041.jpg Graphic file (type QTm)
+<use  "gif//1041.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1042.jpg Graphic file (type QTm)
+<use  "gif//1042.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+File: gif//1043.jpg Graphic file (type QTm)
+<use  "gif//1043.jpg" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9.
+
+[1
+
+] (d:\Desktop\Latex_lonelybag\Script\001_gif\001gif.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1857 strings out of 495354
- 25720 string characters out of 3183860
- 88420 words of memory out of 3000000
- 5016 multiletter control sequences out of 15000+200000
+ 1313 strings out of 430478
+ 16994 string characters out of 3191503
+ 101196 words of memory out of 3000000
+ 4452 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,4n,23p,276b,190s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on 001gif.pdf (1 page, 13557751 bytes).
-PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 646 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 25i,6n,23p,241b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on 001gif.pdf (1 page).
