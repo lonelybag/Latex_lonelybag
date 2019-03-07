@@ -83,16 +83,40 @@
 	\caption{WOS下载特定格式检索结果}\label{fig:2}
 \end{figure}
 
-第三步，需要将下载获得的所有txt移动至TXT文件夹，然后打开main.exe，此时输入1并回车，软件将自动打开程序界面，接着点击gragh maker，我们就会获得文献之间的引用网络，文献由节点表示，所有的节点自上而下按照时间顺序排列，之间的引用和被引关系由连接的线条表示。修改count将对分析的文献数量进行控制，一般来说，取得大一点可以获得更多的信息。
-
-注意到，select by一栏有两个选项：LCS和GCS，LCS是Local Citation Score的缩写，代表某篇文献在本地数据集（也就是我们所下载的txt集合）的总被引次数，而GCS是Global Citation Score的缩写，代表在WOS数据库中的总被引次数。一般来说，由于本地数据集是根据我们的关键词获得的，因此LCS排名更能够反映某一学科的发展。此外，还有两个参数会出现在浏览器界面，CR和LCR，分别是Cited references和local cited references的缩写，代表对WOS数据库和本地数据库文献引用的数量。这里，CR越高（可以以50篇为标准）则表示该文献越可能是综述性文献，这样就可以方便地追根溯源，清晰地看到一个领域乃至一个领域的发展脉络。
+第三步，需要将下载获得的所有txt移动至TXT文件夹，然后打开main.exe，此时输入1并回车，软件将自动打开程序界面，接着点击gragh maker，我们就会获得文献之间的引用网络，文献由节点表示，所有的节点自上而下按照时间顺序排列，之间的引用和被引关系由连接的线条表示。修改count将对分析的文献数量进行控制，一般来说，取得大一点可以获得更多的信息，如图\ref{fig:3}所示。
 
 \begin{figure}[!htb]
 	\centering
-	\animategraphics[autoplay, loop , width=0.9\linewidth]{8}{Figure//Hmaker//00}{01}{57}
+	\animategraphics[autoplay, loop , width=0.9\linewidth]{8}{Figure//Hmaker//00}{01}{73}
 	\vspace{-0.3cm}
 	\caption{HistCite Pro 2.1操作}\label{fig:3}
 \end{figure}
+
+
+注意到，select by一栏有两个选项：LCS和GCS，LCS是Local Citation Score的缩写，代表某篇文献在本地数据集（也就是我们所下载的txt集合）的总被引次数，而GCS是Global Citation Score的缩写，代表在WOS数据库中的总被引次数。一般来说，由于本地数据集是根据我们的关键词获得的，因此LCS排名更能够反映某一学科的发展。此外，还有两个参数会出现在浏览器界面，CR和LCR，分别是Cited references和local cited references的缩写，代表对WOS数据库和本地数据库文献引用的数量。这里，CR越高（一般以50篇为标准）则表示该文献越可能是综述性文献，这样就可以方便地追根溯源，清晰地看到一个学科乃至一个领域的发展脉络，一个典型的发展脉络可以参考图\ref{fig:typical_trace}(完整版请\href{https://github.com/lonelybag/Latex_lonelybag/tree/V1.0}{移步})。
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\linewidth]{Figure/typical_trace.JPG}
+	\vspace{-0.3cm}
+	\caption{一个示例}\label{fig:typical_trace}
+\end{figure}
+
+可以看出，文献16显然是这个领域的开创性论文，随着时间的推移又分裂为两个分支，接着又发展为多个分支。通过阅读关键节点论文不仅可以快速了解这个领域的发展脉络，甚至还可以看出：
+
+\begin{itemize}
+	\item 研究之初，两个小方向是经过试探却又半途而废的
+	\item \href{https://github.com/lonelybag/Latex_lonelybag/tree/V1.0}{完整版图片}右侧出现了两个领域的交叉，这里往往是研究思路的“不老泉”
+	\item \href{https://github.com/lonelybag/Latex_lonelybag/tree/V1.0}{完整版图片}最左侧有一个研究历程非常持久的小分支，这可能是某个专家的“独门秘籍”
+	\item \href{https://github.com/lonelybag/Latex_lonelybag/tree/V1.0}{完整版图片}右侧还有一个完全没有关联的领域，虽然在2013年后就没有产出了，但是这并不一定意味着研究的停滞，也有可能是研究成果实现了产业化，被大佬们拿去挣钱了。。。
+	\item 。。。 。。。
+\end{itemize}
+
+所以，这个方法不仅仅可以帮助我们找文献，更重要的是带给了我们关于这项研究的历史发展历程，带给了我们冰冷研究的人文情怀，我们甚至可以想象出，那位开山鼻祖级别的大佬在当时仅仅是一位年轻博士生的时候的艰苦、悲痛、遇到机遇时狂喜、受挫后的再一次站立、以及功成名就之后的平凡和悠闲。。。
+
+因此，每一张图都可以说是一位科学家的成名史、一个领域的发展史、以及整个人类文明的历史。
+
+所以，为什么不试试\href{https://zhuanlan.zhihu.com/p/20902898}{它}或\href{https://zhuanlan.zhihu.com/p/30970993}{它}呢？
 
 \section{常用网站}
 
@@ -101,7 +125,7 @@
 
 \begin{figure}[!htb]
 	\centering
-	\animategraphics[controls, autoplay, loop , width=0.6\linewidth]{8}{Figure//Fig2//10}{01}{19}
+	\animategraphics[autoplay, loop , width=0.6\linewidth]{8}{Figure//Fig2//10}{01}{19}
 	\vspace{-0.3cm}
 	\caption{This is an awesome pdf with a gif - by lonelybag.}\label{fig:39}
 \end{figure}
