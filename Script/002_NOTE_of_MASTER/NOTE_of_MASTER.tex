@@ -83,13 +83,15 @@
 	\caption{WOS下载特定格式检索结果}\label{fig:2}
 \end{figure}
 
-第三步，需要将下载获得的所有txt移动至TXT文件夹，然后打开main.exe，此时输入1并回车，软件将自动打开程序界面，接着点击gragh maker，修改count将对分析的文献数量进行控制，一般来说，取得大一点可以获得更多的信息。注意到，select by一栏有两个选项：LCS和GCS，LCS是Local Citation Score的缩写，代表某篇文献在本地数据集（也就是我们所下载的txt集合）的总被引次数，而GCS是Global Citation Score的缩写，代表在WOS数据库中的总被引次数。一般来说，由于本地数据集是根据我们的关键词获得的，因此LCS排名更能够反映某一学科的发展。
+第三步，需要将下载获得的所有txt移动至TXT文件夹，然后打开main.exe，此时输入1并回车，软件将自动打开程序界面，接着点击gragh maker，我们就会获得文献之间的引用网络，文献由节点表示，所有的节点自上而下按照时间顺序排列，之间的引用和被引关系由连接的线条表示。修改count将对分析的文献数量进行控制，一般来说，取得大一点可以获得更多的信息。
+
+注意到，select by一栏有两个选项：LCS和GCS，LCS是Local Citation Score的缩写，代表某篇文献在本地数据集（也就是我们所下载的txt集合）的总被引次数，而GCS是Global Citation Score的缩写，代表在WOS数据库中的总被引次数。一般来说，由于本地数据集是根据我们的关键词获得的，因此LCS排名更能够反映某一学科的发展。此外，还有两个参数会出现在浏览器界面，CR和LCR，分别是Cited references和local cited references的缩写，代表对WOS数据库和本地数据库文献引用的数量。这里，CR越高（可以以50篇为标准）则表示该文献越可能是综述性文献，这样就可以方便地追根溯源，清晰地看到一个领域乃至一个领域的发展脉络。
 
 \begin{figure}[!htb]
 	\centering
 	\animategraphics[autoplay, loop , width=0.9\linewidth]{8}{Figure//Hmaker//00}{01}{57}
 	\vspace{-0.3cm}
-	\caption{WOS下载特定格式检索结果}\label{fig:3}
+	\caption{HistCite Pro 2.1操作}\label{fig:3}
 \end{figure}
 
 \section{常用网站}
