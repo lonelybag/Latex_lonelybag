@@ -8,15 +8,15 @@
 \usepackage{enumerate}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\lhead{}
-\chead{}
-% \rhead{\bfseries The performance of new graduates}
-\lfoot{From: K. Grant}
-\cfoot{To: Dean A. Smith}
-\rfoot{\thepage}
-\renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\footrulewidth}{0.4pt}
-\renewcommand\thesection{\arabic{section}}
+% \lhead{}
+% \chead{}
+% % \rhead{\bfseries The performance of new graduates}
+% \lfoot{From: K. Grant}
+% \cfoot{To: Dean A. Smith}
+% \rfoot{\thepage}
+% \renewcommand{\headrulewidth}{0.4pt}
+% \renewcommand{\footrulewidth}{0.4pt}
+% \renewcommand\thesection{\arabic{section}}
 % arabic 阿拉伯数字 roman 小写的罗马数字 Roman 大写的罗马数字 alph 小写字母  Alph 大写字母
 \begin{document}
 % ----------- 封面 ---------------
@@ -32,10 +32,12 @@
 	\hspace{3cm}\Large{2018.3.2}
 	\clearpage  % 清除当页页码
 \end{center}
+
 \begin{center}  % 居中
 	\quad \\
 	\vspace{5cm}
-	\LARGE{如果说我比别人看得更远，那是因为我站在巨人的肩膀上}
+	\LARGE{如果说我比别人看得更远，那是因为我站在巨人的肩膀上}\\
+	\LARGE{上下四方曰宇，古往今来曰宙}
 	\clearpage  % 清除当页页码
 \end{center}
 \thispagestyle{empty}
@@ -48,10 +50,10 @@
 \newpage
 \clearpage
 % ----------- 正文 ---------------
-\section{快速抓住研究热点}
+\chapter{快速抓住研究热点}
 研究热度往往体现在论文的发表数量中，但是一个领域中的主要研究方向却往往很难仅通过阅读论文而获得全面认识。换句话说，统计论文中的研究方向远比统计发表数量重要。为了解决这一问题，研究人员也提出了若干解决方案。
 
-\subsection{传统方式}
+\section{传统方式}
 词典，是语言学家针对特定语言而将常见字词按照一定的逻辑编纂起来的文本工具。科学家也有自己的词典，他们针对某一特定研究领域对热点论文进行总结归纳并提出相应见解，最终以论文的形式发表，这就是文献综述。
 
 通过阅读文献综述，可以快速地对所关注的研究领域形成大致了解，而这也是快速抓住研究热点的传统方式。通过限定检索词可以较为有效地检索该类型的文章，对于英文文献，其检索词可以选择如下几种：
@@ -65,7 +67,7 @@
 
 这样，再加上一些限定词（如：WPT）就可以有效地检索出特定研究领域的文献综述。但是，这样检索出的文献往往比较松散，并且会使我们忽略一些更有价值的paper。因此，有时（甚至往往）会采用辅助工具进行这项工作。
 
-\subsection{辅助工具}
+\section{辅助工具}
 为了快速地了解一个领域的研究热点，仅仅通过 {\bf 关键词检索 - 论文下载 - 阅读 - 二次检索} 这类流程是不能达到“快速”的要求的，真正有效的方法是借助论文分析工具，这类工具一般有如下特点：
 
 \begin{itemize}
@@ -75,9 +77,9 @@
 \end{itemize}
 
 常用的辅助工具有：\href{https://zhuanlan.zhihu.com/p/20902898}{HistCite Pro 2.1} 以及 \href{https://zhuanlan.zhihu.com/p/30970993}{VOSviewer}。这两种工具的最大区别就是HistCite Pro 2.1仅支持英文文献，但VOSviewer不仅支持英文还支持中国知网导出的中文文献。笔者只用过HistCite Pro 2.1，如果读者希望对中文文献也进行处理，可以参考\href{https://www.jianshu.com/p/e20f3f1d17d8}{这个}）。下面我通过若干gif对软件的使用进行介绍。
-\subsubsection{安装}
+\subsection{安装}
 安装就不赘述了，参考\href{https://zhuanlan.zhihu.com/p/20902898}{这里}就够了。
-\subsubsection{导出文献}
+\subsection{导出文献}
 这一步是初学者最容易出现差错的地方，这是因为HistCite Pro 2.1对源数据的格式要求非常严谨，而且它仅支持由Web of Science导出的文献格式。下面我通过Step-by-step的方式展示如何从WOS导出符合要求的格式。
 
 第一步：选择检索{\bf 数据库}并给定检索词，一般首次使用需要我们对整个领域有一个宏观认识，因此检索词可以非常概括，比如我使用的wireless power，如图\ref{fig:1}。
@@ -89,7 +91,7 @@
 	\caption{WOS检索关键词：wireless power}\label{fig:1}
 \end{figure}
 
-第二步：选择正确格式，下载，如图\ref{fig:2}所示。值得注意的是，WOS仅支持一次性导出500篇文献，所以更多的文献需要多次下载。
+第二步：选择正确格式，下载，如图\ref{fig:2}所示。值得注意的是，WOS仅支持一次性导出500篇文献，所以更多的文献需要多次下载，这步完成后会获得一个包含所有文献检索信息的txt文件。
 
 \begin{figure}[!htb]
 	\centering
@@ -98,7 +100,8 @@
 	\caption{WOS下载特定格式检索结果}\label{fig:2}
 \end{figure}
 
-第三步，需要将下载获得的所有txt移动至TXT文件夹，然后打开main.exe，此时输入1并回车，软件将自动打开程序界面，接着点击gragh maker，我们就会获得文献之间的引用网络，文献由节点表示，所有的节点自上而下按照时间顺序排列，之间的引用和被引关系由连接的线条表示。修改count将对分析的文献数量进行控制，一般来说，取得大一点可以获得更多的信息，如图\ref{fig:3}所示。
+\subsection{文献分析}
+将下载获得的所有txt移动至TXT文件夹，然后打开main.exe，此时输入1并回车，软件将自动打开程序界面，接着点击gragh maker，我们就会获得文献之间的引用网络，文献由节点表示，所有的节点自上而下按照时间顺序排列，之间的引用和被引关系由连接的线条表示。修改count将对分析的文献数量进行控制，一般来说，取得大一点可以获得更多的信息，如图\ref{fig:3}所示。
 
 \begin{figure}[!htb]
 	\centering
@@ -133,13 +136,24 @@
 
 所以，为什么不试试\href{https://zhuanlan.zhihu.com/p/20902898}{它}或\href{https://zhuanlan.zhihu.com/p/30970993}{它}呢？
 
-\section{罗马是如何建成的}
-\subsection{通用工作流程}
-工作流程的英文名称是workflow，在github上常常可以看到，其实就是办事的基本流程。
- 
-\subsection{理论分析}
+\chapter{罗马是如何建成的}
+\section{是时候学点管理学了}
+我平常接触github比较多（一个著名的代码托管网站，这是\href{https://github.com/lonelybag?tab=repositories}{我的主页}）。我发现，在进行大多数的代码项目前，大家都会提到一个叫做workflow（可以翻译为工作流）的东西。经过了解后，我发现这个东西非常强大，其本质就是所谓的“思路”或者“技术路线”，并且除了给出方法论以外，它还告诉了我们如何进行团队协作。
 
-\subsection{实验验证}
+workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds编写的版本控制工具Git发展而来，这两样工具的发明最初仅是为了服务于\href{https://github.com/torvalds/linux}{Linux}项目的开发。Linux作为一个操作系统内核，一个人不可能进行维护，而Github的出现，使得世界范围的代码爱好者可以共同维护一个项目，而这在以前是绝无可能的。
+
+如果说Github提供了一个巨型的合作平台，那么workflow则提供了开发者们共同协作的机制。一个典型的github workflow如图\ref{fig:workflow}所示。
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\linewidth]{Figure/workflow.pdf}
+	\vspace{-0.3cm}
+	\caption{workflow}\label{fig:workflow}
+\end{figure}
+ 
+\section{理论分析}
+
+\section{实验验证}
 
 \section{文献写作}
 
@@ -157,6 +171,11 @@
 	\vspace{-0.3cm}
 	\caption{This is an awesome pdf with a gif - by lonelybag.}\label{fig:39}
 \end{figure}
+
+\section*{跋}
+时常有人问我：“你怎么会有那么多时间去学那么多东西的？”。其实很简单，因为热爱。
+
+试着寻找自己的内心所爱，也试着让那一份热爱去做决策吧。相信我，当你找到她的时候，那也就是我们变得无所畏惧的时候。
 
 
 \end{document}
