@@ -1,0 +1,20 @@
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}快速抓住研究热点}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}传统方式}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}辅助工具}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}安装}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}导出文献}{6}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}文献分析}{7}{subsection.1.2.3}
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}罗马是如何建成的}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}是时候学点管理学了}{11}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}什么是工作流}{11}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}工作流与科研}{11}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}理论分析}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}为什么要建数学模型}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}真实与仿真}{13}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}实验验证}{14}{section.2.3}
+\contentsline {section}{\numberline {2.4}文献写作}{14}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}写作工具}{14}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}写作流程}{14}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}参考文献}{14}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}常用网站}{14}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}COMSOL}{14}{subsection.2.4.5}

@@ -1,4 +1,3 @@
-% !TEX program = xelatex
 \documentclass[UTF8]{ctexbook}
 
 \usepackage[titles]{tocloft} % 目录
@@ -8,16 +7,7 @@
 \usepackage{enumerate}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-% \lhead{}
-% \chead{}
-% % \rhead{\bfseries The performance of new graduates}
-% \lfoot{From: K. Grant}
-% \cfoot{To: Dean A. Smith}
-% \rfoot{\thepage}
-% \renewcommand{\headrulewidth}{0.4pt}
-% \renewcommand{\footrulewidth}{0.4pt}
-% \renewcommand\thesection{\arabic{section}}
-% arabic 阿拉伯数字 roman 小写的罗马数字 Roman 大写的罗马数字 alph 小写字母  Alph 大写字母
+
 \begin{document}
 % ----------- 封面 ---------------
 \begin{center}  % 居中
@@ -138,6 +128,7 @@
 
 \chapter{罗马是如何建成的}
 \section{是时候学点管理学了}
+\subsection{什么是工作流}
 我平常接触github比较多（一个著名的代码托管网站，这是\href{https://github.com/lonelybag?tab=repositories}{我的主页}）。我发现，在进行大多数的代码项目前，大家都会提到一个叫做workflow（可以翻译为工作流）的东西。经过了解后，我发现这个东西非常强大，其本质就是所谓的“思路”或者“技术路线”，并且除了给出方法论以外，它还告诉了我们如何进行团队协作。
 
 workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds编写的版本控制工具Git发展而来，这两样工具的发明最初仅是为了服务于\href{https://github.com/torvalds/linux}{Linux}项目的开发。Linux作为一个操作系统内核，一个人不可能进行维护，而Github的出现，使得世界范围的代码爱好者可以共同维护一个项目，而这在以前是绝无可能的。
@@ -150,17 +141,49 @@ workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds�
 	\vspace{-0.3cm}
 	\caption{workflow}\label{fig:workflow}
 \end{figure}
- 
+
+\subsection{工作流与科研}
 \section{理论分析}
+\subsection{为什么要建数学模型}
+大到宇宙洪荒，小到亚原子领域，与人类活动相关的一切都有数学模型。那么，为什么要研究呢？我觉得目的可以分为两种，为了控制。
+
+
+
+\subsection{真实与仿真}
+钱学森有一个世纪之问：“为什么中国出不了诺贝尔奖”，我自己有一个解答，不是从教育的角度，而是从国人与老外的思考方式的差异。
+
+如果大家看过《降临》这部电影就会了解，语言决定了（或者反映了）一个人的思考方式，电影中的外星人具有非线性的高维语言能力，没有时间空间的线性概念，这也是电影中人类语言学家不能理解外星人文字的症结。我们可以仿照着看一下汉语与英语的差别，如表\ref{tab:conpareCandE}：
+
+\begin{table}[!htb]
+	\renewcommand{\arraystretch}{1.3} %可以让行显得更加宽敞
+	\caption{中英对比}\label{tab:conpareCandE}
+	\centering
+	\vspace{0.2cm}
+	\resizebox{0.3\columnwidth}{!}{
+		\begin{tabular}{ccc} % 通过添加 | 来表示是否需要绘制竖线
+			\hline  % 在表格最上方绘制横线
+			对比       & 汉语 & 英语 \\
+			\hline  %在第一行和第二行之间绘制横线
+			奇怪的量词 & 少   & 多   \\
+			感情色彩   & 委婉 & 直接 \\
+			\hline % 在表格最下方绘制横线
+		\end{tabular}
+	}
+\end{table}
+
+可以看出，中国人的语言是弱化量词而强化情感的，我们作画作诗也是这样，总是注重写意而避免写实，描述人与自然的关系的时候也总是旁击侧引，生怕赏画吟诗的人一眼就看穿作者的心思。但是外国人并不是这样，他们致力于用最简练最准确的语言描述事物，生怕哪个词读者不明白而影响了本意。
+
+从牛顿时代开始，这个社会的生产力就是纯粹的科技力量了，而科技恰恰要求的是高精度：优化算法是为了更加精确和更加快速地求解方程、学习CAD是为了更加精确地描述事物的几何特性、发明电子计算机是为了更加精确地制导。。。看到这里，不知道读者是否明白了我的意思。
+
+那么，数学模型的建立，使得我们可以通过量化的方式对系统进行控制与优化，
 
 \section{实验验证}
 
 \section{文献写作}
-
-
 \subsection{写作工具}
 \subsection{写作流程}
 \subsection{参考文献}
+
 \subsection{常用网站}
 
 \subsection{COMSOL}
@@ -172,10 +195,30 @@ workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds�
 	\caption{This is an awesome pdf with a gif - by lonelybag.}\label{fig:39}
 \end{figure}
 
-\section*{跋}
+\chapter*{跋}
+我讲几个事例作为结束，其中蕴含了我的一些感悟。
+
+\subsection*{热爱}
 时常有人问我：“你怎么会有那么多时间去学那么多东西的？”。其实很简单，因为热爱。
 
-试着寻找自己的内心所爱，也试着让那一份热爱去做决策吧。相信我，当你找到她的时候，那也就是我们变得无所畏惧的时候。
+\subsection*{持久的输出}
+知乎上有一个问题，苹果公司有哪些黑科技？其中一个回答的答案是iphone一代。2007年1月，苹果公司发布了被后人称为“重新定义了手机”的iphone一代，自此开始了长达十年的封神之路。作为历史上市值第一个超过万亿美元的科技公司，它的成功也让很多人萌发了试图复制这一商业成功的欲望，当然他们并未成功，因为十年后的今天，苹果依然还是第一。
 
+很多人将苹果的成功归功于乔布斯，其实我感觉这种想法很愚蠢。那么到底是什么造就了它的成功呢？如果大家读过《乔布斯传》就会了解到，2007年发布的iphone一代其实早在5年前就已经开始准备了，那就是2002年，各种翻盖、滑盖、旋转盖手机迭起的风云时代。。。
+
+我们输的不冤枉吧。对手感觉到的“黑科技”，其实对自己，不过是孕育和必然。
+
+\subsection*{活得痛快}
+人为什么活着？
+
+不知道大家看过《本杰明巴顿奇事》吗，可能剧情也不错吧，但是给我带来感悟的却是电影快结束时的旁白。每个人都生而平凡，但是工作却赋予了我们不同的社会角色和人生意义：有的人是妈妈，有的人是商人，有的人是舞者、有的人是政客、有的人是船长。。。
+
+他们不一样吗？
+
+他们太一样了：妈妈的愿望是孩子活下来、商人的愿望是挣钱后让自己的孩子继承工厂、舞者的愿望是在世界的舞台上独舞、政客的愿望是包养舞者、船长的愿望是为国捐躯。。。看到了吗，他们都有一个共同的东西在支撑自己去奋斗、去生活，那就是梦想。
+
+\hspace{2cm}
+
+试着寻找自己的内心所爱，也试着让那一份热爱去做决策吧。相信我，当你找到她的时候，你将成为无限宇宙之王。
 
 \end{document}
