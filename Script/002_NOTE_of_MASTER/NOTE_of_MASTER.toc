@@ -8,8 +8,8 @@
 \contentsline {section}{\numberline {2.1}是时候学点管理学了}{11}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}什么是工作流}{11}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}工作流与科研}{11}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}理论分析}{11}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}为什么要建数学模型}{11}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.2}理论分析}{13}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}为什么要建数学模型}{13}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}真实与仿真}{13}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}实验验证}{14}{section.2.3}
 \contentsline {section}{\numberline {2.4}文献写作}{14}{section.2.4}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.24)  9 MAR 2019 20:28
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.24)  9 MAR 2019 20:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2054,7 +2054,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 第二章
 File: Figure/workflow.pdf Graphic file (type QTm)
-<use  "Figure/workflow.pdf" > [11]
+<use  "Figure/workflow.pdf" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2103,7 +2106,7 @@ File: Figure//Fig2//1018.jpg Graphic file (type QTm)
  <use  "Figure//Fig2//1018.jpg" > <a3,fr17>
 File: Figure//Fig2//1019.jpg Graphic file (type QTm)
  <use  "Figure//Fig2//1019.jpg" > <a3,fr18>
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1975) has occurred while \output is active []
 
 
 
@@ -2122,7 +2125,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [14] [15
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2131,11 +2134,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
  (./NOTE_of_MASTER.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 224.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 224.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 226.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 226.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
  28324 strings out of 493005
@@ -2144,6 +2147,6 @@ Here is how much of TeX's memory you used:
  31864 multiletter control sequences out of 15000+600000
  5270 words of font info for 50 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 57i,12n,68p,10473b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,11n,68p,10473b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on NOTE_of_MASTER.pdf (16 pages).
