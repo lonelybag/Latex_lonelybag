@@ -1,18 +1,19 @@
 \documentclass[UTF8]{ctexbook}
 
 \usepackage[titles]{tocloft} % 目录
-\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\usepackage[colorlinks,linkcolor=blue]{hyperref} % 超链接
 \usepackage{graphicx} % An example of a floating figure using the graphicx package.
-\usepackage{animate}
-\usepackage{enumerate}
-\usepackage{fancyhdr}
+\usepackage{animate} % 动画
+\usepackage{enumerate} % 列表
+\usepackage{fancyhdr} % 页眉页脚
 \pagestyle{fancy}
-\usepackage{xpinyin}
+\usepackage{xpinyin} % 注音
+\usepackage[]{appendix}
 
 \title{\Huge{A NOTE {\itshape of} MASTER}\\
 \Huge{菜鸟硕士手册}\\
 \large{V1.0}}
-\author{\href{https://github.com/lonelybag/Latex_lonelybag}{\Large{@LonelyBag}}}
+\author{\href{https://github.com/lonelybag/Latex_lonelybag}{\Large{@LonelyBag}}\\ {\itshape \large{Edite by \href{https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/}{\LaTeX}}}}
 
 \begin{document}
 % ----------- 封面 ---------------
@@ -45,20 +46,19 @@
 \mainmatter
 % ----------- 正文 ---------------
 \chapter{试着不虚此行}
+硕士期间，我听到身边同学说的最多的就是叹气。 不满意、不理想好像成了日常的生活状态，
 \section{假如重新来过}
-假如我回到了3年前再次读研。我觉得我会这样度过：
+假如我回到了三年前再次读研。我会这样度过：
 \begin{itemize}
-	\item 研一上，认真学好数值分析、矩阵论、智能控制理论、电力电子、DSP以及文献检索（比较有代表性的，不代表其他不重要）。原因：数值分析和矩阵论是一切仿真软件内核的数学基础；智能控制理论涉及到了人工神经网络的基本原理，而它是未来的必然趋势，此外书中提到的算法都可以解决优化问题，如：电路拓扑的构建、电路元件参数的调整、线圈形状的优化等等。。。；电力电子电路和DSP的结合是除了仿真外验证思路的最优实现方案；文献检索，可能是硕士期间最重要、也最值得花时间研究的课。
+	\item 研一上，认真学好数值分析、矩阵论、智能控制理论、电力电子、DSP以及文献检索（比较有代表性的，不代表其他不重要）。原因：数值分析和矩阵论是一切仿真软件内核的数学基础；智能控制理论涉及到了人工神经网络的基本原理，而它是未来的必然趋势，此外书中提到的算法都可以解决优化问题，如：电路拓扑的构建、电路元件参数的调整、线圈形状的优化等等。。。电力电子电路和DSP的结合是除了仿真外验证思路的最优实现方案；文献检索，可能是硕士期间最重要、也最值得花时间研究的课。
 	\item 研一下，只做两件事。第一：系统地学习MATLAB+Simulink、COMSOL或Ansys、DSP、Altium Designer、ADS或Multism、Latex+git+vscode、Rhino或3DSMAX、PS或Adobe Illustrator。第二：整理近两年的论文。
 	\item 研二上（开题10月底），精进MATLAB+Simulink、COMSOL或Ansys、DSP、Altium Designer、ADS或Multism、Latex+git+vscode，并着手仿真实验+写论文引言。
-	\item 研二下（中期5月底），完成实物实验，完成论文并在11月份前投出。
+	\item 研二下（中期5月底），完成实验，完成论文并在11月份前投出。
 	\item 研二上，着手第二篇论文，在9月份前投出。
 	\item 研三上（毕业答辩1月底），完成毕业论文。
 \end{itemize}
 
 这将是异常\xpinyin{丰}{tong4}\xpinyin{富}{ku3}的经历，如果坚持下来，你的人生可能就会因此\xpinyin{改}{tu1}\xpinyin{变}{ding3}。
-
-\section{COMSOL}
 
 
 \chapter{快速抓住研究热点}
@@ -168,46 +168,56 @@ workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds�
 
 \section{理论分析}
 \subsection{为什么要建数学模型}
-大到宇宙洪荒，小到亚原子领域，与人类活动相关的一切都有数学模型。那么，为什么要研究呢？我觉得目的可以分为两种，为了控制。
-
-
+大到宇宙洪荒，小到亚原子领域，与人类活动相关的一切都有数学模型。那么，为什么要研究呢？我觉得其一是为了控制，其二是为了更加本质地理解现象以得到有用的结论。
 
 \subsection{真实与仿真}
-钱学森有一个世纪之问：“为什么中国出不了诺贝尔奖”，我自己有一个解答，不是从教育的角度，而是从国人与老外的思考方式的差异。
+数学模型的建立，使得我们可以通过量化的方式对系统进行控制与优化，
 
-如果大家看过《降临》这部电影就会了解，语言决定了（或者反映了）一个人的思考方式，电影中的外星人具有非线性的高维语言能力，没有时间空间的线性概念，这也是电影中人类语言学家不能理解外星人文字的症结。我们可以仿照着看一下汉语与英语的差别，如表\ref{tab:conpareCandE}：
-
-\begin{table}[!htb]
-	\renewcommand{\arraystretch}{1.3} %可以让行显得更加宽敞
-	\caption{中英对比}\label{tab:conpareCandE}
-	\centering
-	\vspace{0.2cm}
-	\resizebox{0.3\columnwidth}{!}{
-		\begin{tabular}{ccc} % 通过添加 | 来表示是否需要绘制竖线
-			\hline  % 在表格最上方绘制横线
-			对比       & 汉语 & 英语 \\
-			\hline  %在第一行和第二行之间绘制横线
-			奇怪的量词 & 少   & 多   \\
-			感情色彩   & 委婉 & 直接 \\
-			时态       & 无   & 有   \\
-			\hline % 在表格最下方绘制横线
-		\end{tabular}
-	}
-\end{table}
-
-可以看出，中国人的语言是弱化量词而强化情感的，我们作画作诗也是这样，总是注重写意而避免写实，描述人与自然的关系的时候也总是旁击侧引，生怕赏画吟诗的人一眼就看穿作者的心思。但是外国人并不是这样，他们致力于用最简练最准确的语言描述事物，生怕哪个词读者不明白而影响了本意。
-
-从牛顿时代开始，这个社会的生产力就是纯粹的科技力量了，而科技恰恰要求的是高精度：优化算法是为了更加精确和更加快速地求解方程、学习CAD是为了更加精确地描述事物的几何特性、发明电子计算机是为了更加精确地制导。。。看到这里，不知道读者是否明白了我的意思。
-
-那么，数学模型的建立，使得我们可以通过量化的方式对系统进行控制与优化，
+\footnote{钱学森有一个世纪之问：“为什么中国出不了诺贝尔奖”，我自己有一个解答，不是从教育的角度，而是从国人与老外的思考方式的差异，大家有兴趣可以看看\ref{fuluA}。}
 
 \section{实验验证}
 
-\section{文献写作}
-\subsection{写作工具}
-\subsection{写作流程}
-\subsection{参考文献}
+\chapter{文献写作}
+\section{写作工具}
+\section{写作流程}
+\section{常用软件}
+在我看来，若要完成一项研究报告，我们需要完成以下（或者其中几项）任务：
+\begin{itemize}
+	\item 仿真
+	\item 数据处理
+	\item 数据可视化
+	\item 算法或者设计优化流程可视化
+	\item 实验系统拟物化简图
+	\item 电路拓扑绘制
+\end{itemize}
+\subsection{仿真}
+从不同理论的角度分类，可以将仿真分为电路仿真、电磁场仿真以及控制理论仿真。
+所谓电路仿真，指可以对等效电路模型进行仿真的软件，一般有如下需求时需要借助该类软件：对所推导的数学模型进行正确性检验、通过快速在线地调节电路参数找创新点、
+对由其他理论（如电磁场理论）获得的结论进行验证、控制算法的检验等。
+常用的电路仿真软件有：Simulink、ADS、Spice、
 
+\section{参考文献}
+
+
+\chapter{上帝说，神器。。。}
+\noindent 卸载类
+\begin{itemize}
+	\item iGeek
+	\item Revo Uninstaller Pro
+\end{itemize}
+杀毒、垃圾整理
+\begin{itemize}
+	\item 火绒
+	\item ccleaner
+\end{itemize}
+制作文档类
+\begin{itemize}
+	\item GIF截屏 LICEcap、ScreenToGif
+	\item Gif生成图片 Ulead GIF Animator
+	\item Inkscape
+\end{itemize}
+
+\backmatter
 \chapter*{跋}\addcontentsline{toc}{chapter⟩}{跋}
 讲几个事例作为结束。
 
@@ -219,16 +229,42 @@ workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds�
 
 如果大家读过《乔布斯传》就会了解到，2007年发布的iphone一代，其实早在5年前就已经开始准备了。那就是2002年，还是各种翻盖、滑盖、旋转盖手机迭起的风云时代。。。
 
-我们输的不冤枉。对手感觉到的“黑科技”，其实对自己，不过是孕育和必然。
+我们输的不冤枉。对手感觉到的“黑科技”，其实对自己不过是孕育和必然。
 
 \subsection*{人为什么活着？}
-这个问题我问过自己很多次，我的答案是：因为有梦。
+这个问题我问过自己很多次，我的答案是：为了心中的梦想。
 
-\hspace{2cm}
-总结起来就是三句话：试着让内心去做决策，时刻雕刻自己，捍卫梦想。
+\vspace{2cm}
+总结起来就是三句话：试着让内心去做决策，时刻雕琢自己以及捍卫梦想。
 
 \hspace{4cm}\\
 \noindent2019毕业前夕\\
-于天津工业大学
+于天津工业大学 \quad 电气学院
+
+
+\chapter*{附录 A}\addcontentsline{toc}{chapter⟩}{附录 A}\label{fuluA}
+	  如果大家看过《降临》这部电影就会了解，语言决定了（或者反映了）一个人的思考方式，电影中的外星人具有非线性的高维语言能力，没有时间空间的线性概念，这也是电影中人类语言学家不能理解外星人文字的症结。我们可以仿照着看一下汉语与英语的差别，如表\ref{tab:compareCandE}：
+
+	  \begin{table}[!htb]
+		  \renewcommand{\arraystretch}{1.3} %可以让行显得更加宽敞
+		  \caption{中英对比}\label{tab:compareCandE}
+		  \centering
+		  \vspace{0.2cm}
+		  \resizebox{0.3\columnwidth}{!}{
+			  \begin{tabular}{ccc} % 通过添加 | 来表示是否需要绘制竖线
+				  \hline  % 在表格最上方绘制横线
+				  对比       & 汉语 & 英语 \\
+				  \hline  %在第一行和第二行之间绘制横线
+				  奇怪的量词 & 少   & 多   \\
+				  感情色彩   & 委婉 & 直接 \\
+				  时态       & 无   & 有   \\
+				  \hline % 在表格最下方绘制横线
+			  \end{tabular}
+		  }
+	  \end{table}
+	  
+	  可以看出，中国人的语言是弱化量词而强化情感的，我们作画作诗也是这样，总是注重写意而避免写实，描述人与自然的关系的时候也总是旁击侧引，生怕赏画吟诗的人一眼就看穿作者的心思。但是外国人并不是这样，他们致力于用最简练最准确的语言描述事物，生怕哪个词读者不明白而影响了本意。
+	  
+	  从牛顿时代开始，这个社会的生产力就是纯粹的科技力量了，而科技恰恰要求的是高精度：优化算法是为了更加精确和更加快速地求解方程、学习CAD是为了更加精确地描述事物的几何特性、发明电子计算机是为了更加精确地制导。。。看到这里，不知道读者是否明白了我的意思。
 
 \end{document}
