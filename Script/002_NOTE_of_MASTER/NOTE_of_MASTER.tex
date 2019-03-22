@@ -60,6 +60,32 @@
 
 这将是异常\xpinyin{丰}{tong4}\xpinyin{富}{ku3}的经历，如果坚持下来，你的人生可能就会因此\xpinyin{改}{tu1}\xpinyin{变}{ding3}。
 
+\section{一些感悟}
+\begin{itemize}
+	\item 评判一个人的行为，需要结合他的选择
+	\item 人生没有输赢，只有选择
+	\item 掌握学习的方法比掌握一件事物本身更加重要
+	\item 找到自己的兴趣点比找到学习的方法更重要
+	\item 生活比工作更重要
+	\item 生命比生活更重要
+	\item 梦想比生命更重要
+	\item 不要和他人比较，你要赢得只是你自己
+	\item 团队架构本身比个人的能力更重要
+	\item 讨论事情的合理性比完成它更重要
+\end{itemize}
+
+\section{关于本文档的一些解释}
+\begin{itemize}
+	\item 首先学一个快捷键：Alt+左箭头，用于点击超链接后回退原位置（试试跳到附录\ref{fuluA}再跳回来）
+	\item 希望发现问题或者想要补充信息的读者在\href{https://github.com/lonelybag/Latex_lonelybag/issues}{这里}添加issue，帮助我完善这个工具书（需要先注册Github账号）
+	\item 如果有兴趣，请跟我一起完善\href{https://github.com/lonelybag/MATLAB_DEMO}{MATLAB项目}以及\href{https://github.com/lonelybag/Comsol_lonelybag}{COMSOL项目}
+	\item 本文档倾向于仿真与科技论文写作
+	\item 本文档由\LaTeX 编辑而成，没有用word的理由是word无法用git进行版本管理
+	\item 本文档的内容来源于硕士期间的积累和感悟
+	\item 撰写本文档纯属个人兴趣，因此我不对它所造成的任何损失负责
+	\item 本文档按照科研（寻找研究热点-确定研究方法-获取实验数据-数据处理-选择期刊-撰写论文-投稿）的一般流程进行撰写
+	\item 本文档的意义在于给予启发，而不在于给定一条“路线”
+\end{itemize}
 
 \chapter{快速抓住研究热点}
 研究热度往往体现在论文的发表数量中，但是一个领域中的主要研究方向却往往很难仅通过阅读论文而获得全面认识。换句话说，统计论文中的研究方向远比统计发表数量重要。为了解决这一问题，研究人员也提出了若干解决方案。
@@ -194,19 +220,60 @@ workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds�
 从不同理论的角度分类，可以将仿真分为电路仿真、电磁场仿真以及控制理论仿真。
 所谓电路仿真，指可以对等效电路模型进行仿真的软件，一般有如下需求时需要借助该类软件：对所推导的数学模型进行正确性检验、通过快速在线地调节电路参数找创新点、
 对由其他理论（如电磁场理论）获得的结论进行验证、控制算法的检验等。
-常用的电路仿真软件有：Simulink、ADS、Spice、SABER、Cadence Spectre、Mentors ModelSim、\href{https://mp.weixin.qq.com/s/4AQa8VciAgzS1NZvd5tM_A}{Multisim14下载破解}、\href{https://mp.weixin.qq.com/s/qb0gipvdphj0YG8iP3IyhQ}{proteus下载破解}（可与\href{https://mp.weixin.qq.com/s/NzK8HAKlY_tXBZy8lQtfsQ}{keil下载破解}联调）、Infineon Designer、ADS或Multism、pspice(已经并入orcad)、
+常用的电路仿真软件有：Simulink、ADS或Multism、Spice、SABER、Cadence Spectre、Mentors ModelSim、\href{https://mp.weixin.qq.com/s/4AQa8VciAgzS1NZvd5tM_A}{Multisim14下载破解}、\href{https://mp.weixin.qq.com/s/qb0gipvdphj0YG8iP3IyhQ}{proteus下载破解}（可与\href{https://mp.weixin.qq.com/s/NzK8HAKlY_tXBZy8lQtfsQ}{keil下载破解}联调）、Infineon Designer、pspice(已经并入orcad)
 
 芯片检索：alldatasheet、datasheetarchive、\href{http:\\datasheet.eeworld.com.cn}{电子工程世界}
 
 
 \section{参考文献}
 
+\chapter{未完成的事业}
+有一些我认为非常重要，但是没有时间完成的事情：
+\section{仿真}
+\subsection{ADS}
+\begin{itemize}
+	\item 通过已有的数据对电路模型的特性曲线进行拟合以求取等效参数。\\
+	      应用场景：1、通过几个数据点，对谐振线圈的频域曲线进行拟合，然后获得线圈的等效参数，如：分布电容，等效电感以及交流电阻。2、求取复杂电路参数，然后利用智能算法对系统参数进行设计，以优化效率、功率等。\\
+	      参考：
+	\item 求取频域下电流，电压以及功率。可能需要HB模块。
+\end{itemize}
+\subsection{Comsol}
+\begin{itemize}
+	\item 实现Matlab联合仿真
+\end{itemize}
+
+\subsection{Matlab}
+\begin{itemize}
+	\item 实现C MEX语言编译
+	\item 实现Simulink控制算法的直接生成以驱动硬件电路
+\end{itemize}
+
+\section{文献写作}
+\subsection{Latex}
+\begin{itemize}
+	\item 控制表格中的字体大小
+	\item 控制浮动体的位置
+	\item 坏箱的修复
+	\item 看懂并修改cls文件
+	\item 看懂并修改bst文件
+	\item 写一份符合学校要求的模板cls文件（需要多人协作）
+\end{itemize}
+
+\section{绘图}
+\begin{itemize}
+	\item 3DSMAX 渲染器的设置
+	\item Rhino 渲染器的设置
+	\item 找到高效美观并且符合标准的电路图绘制软件
+	\item 找到高效美观并且符合标准的流程图绘制软件
+	\item 学会Adobe Illustrator
+\end{itemize}
+
 
 \chapter{上帝说:要有神器}
-我只用过其中的一部分，另一部分是还没有时间尝试的，我用\underline{斜体$+$下划线}表示使用过的软件（网址没有标记，都用过）。
+我只用过其中的一部分，另一部分是还没有时间尝试的，我用\underline{下划线}表示使用过的软件（网址没有标记，都用过）。
 
 \section{基本}
-\section{杀毒垃圾整理系统优化}
+\subsection{杀毒+垃圾整理+系统优化}
 \begin{itemize}
 	\item \underline{\textit{\href{https://www.huorong.cn}{火绒}}}\quad 免费
 	\item \underline{\textit{\href{http://ccleaner.soft88.com}{ccleaner}}}\quad 基础版免费
@@ -239,7 +306,7 @@ workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds�
 	\item GIF录屏：\underline{\textit{\href{https://www.cockos.com/licecap/}{LICEcap}}}\quad 230kb免费、\href{https://www.screentogif.com/?l=zh_cn}{ScreenToGif}\quad 2M免费、\href{https://ocam.en.softonic.com}{Ocam}\quad 10Mb免费
 	\item Gif转换为图片：\underline{\textit{\href{https://ulead-gif-animator.jaleco.com}{Ulead GIF Animator}}}\quad 免费
 	\item PDF转换为矢量图片：\underline{\textit{\href{https://inkscape.org}{Inkscape}}}\quad 免费
-	\item \underline{\textit{\href{https://code.visualstudio.com}{Vscode}}}\quad 免费
+	\item \underline{\textit{\href{https://code.visualstudio.com}{VScode}}}\quad 免费
 	\item \underline{\textit{\href{https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/}{Texlive}}}\quad 免费
 	\item 截屏：\underline{\textit{\href{http://www.faststone.org/FSCaptureDetail.htm}{FastStone Capture}}}\quad 收费、\href{https://www.snipaste.com}{Snipaste}\quad 免费
 	\item 快速浏览：\href{https://pooi.moe/QuickLook/}{QuickLook}\quad 免费、\href{http://1218.io}{seer}\quad 收费
@@ -249,30 +316,42 @@ workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds�
 
 \subsection{Chrome插件类}
 \begin{itemize}
-	\item \href{https://greasyfork.org/zh-CN}{油猴脚本}\quad 免费
+	\item \underline{\textit{\href{https://greasyfork.org/zh-CN}{油猴脚本}}}\quad 免费
 	\item VPN：就去加速（官网已被墙）
-	\item \href{http://listen1.github.io/listen1/}{Listen1}\quad 最好用的在线音乐播放器，免费
+	\item \underline{\textit{\href{http://listen1.github.io/listen1/}{Listen1}}}\quad 最好用的在线音乐播放器，免费
 	\item \href{https://kopernio.com}{Kopernio}\quad 免费获取论文，免费
 \end{itemize}
 
 \subsection{常用网站}
 \begin{itemize}
-	\item \href{https://www.3d66.com/popsoft_26.html}{软件下载}包括但不限于：3DSMAX，AutoCAD，PS，Rhino，Maya，AI。。。
-	\item \href{http://gitbook.liuhui998.com/index.html}{Git学习}
-	\item \href{http://www.xuexiniu.com/forum.php?mod=forumdisplay&fid=102&filter=typeid&typeid=1}{犀牛技巧}
-	\item \href{https://tool.lu}{程序员的工具箱}
-	\item \href{http://www.ytube.win}{下载youtube视频}缺点是不带字幕
-	\item \href{https://cloudconvert.com/gif-to-mp4}{Gif2MP4}
-	\item \href{https://cn.office-converter.com/FIG-to-EPS}{Fig2EPS}
-	\item \href{https://www.photopea.com}{在线PS}
-	\item \href{https://uzer.me/u/signin}{在线office，PS，AI，MATLAB等}
-	\item \href{https://bigjpg.com}{无损放大图片}
-	\item \href{https://www.slant.co}{帮助我们做决策}
-	\item \href{http://www.pythontutor.com}{python代码在内存中是如何执行的}
-	\item \href{https://www.appinn.com/category/windows/}{小众软件}
-	\item \href{https://www.remove.bg}{自动抠图}
-	\item \href{https://algorithm-visualizer.org}{算法运行可视化}
-	\item \href{https://learngitbranching.js.org/?demo}{动画学习Git}
+	\item 软件下载
+	\begin{itemize}
+		\item \href{https://www.3d66.com/popsoft_26.html}{软件下载}\quad 包括但不限于：3DSMAX，AutoCAD，PS，Rhino，Maya，AI。。。
+		\item \href{https://www.appinn.com/category/windows/}{小众软件}
+	\end{itemize}
+	\item Git
+	\begin{itemize}
+		\item \href{http://gitbook.liuhui998.com/index.html}{gitbook}
+		\item \href{https://learngitbranching.js.org/?demo}{动画学习Git}
+	\end{itemize}
+	\item 在线工具
+	\begin{itemize}
+		\item \href{https://tool.lu}{程序员的工具箱}
+		\item \href{https://cloudconvert.com/gif-to-mp4}{Gif2MP4}
+		\item \href{https://cn.office-converter.com/FIG-to-EPS}{Fig2EPS}
+		\item \href{http://www.ytube.win}{下载youtube视频}\quad 缺点是不带字幕
+		\item \href{https://www.slant.co}{帮助我们做决策}
+		\item \href{https://www.photopea.com}{在线PS}
+		\item \href{https://uzer.me/u/signin}{在线office，PS，AI，MATLAB等}
+		\item \href{https://bigjpg.com}{无损放大图片}
+		\item \href{https://www.remove.bg}{自动抠图}
+	\end{itemize}
+	\item 在线学习
+	\begin{itemize}
+		\item \href{http://www.xuexiniu.com/forum.php?mod=forumdisplay&fid=102&filter=typeid&typeid=1}{犀牛技巧}
+		\item \href{http://www.pythontutor.com}{python代码在内存中是如何执行的}
+		\item \href{https://algorithm-visualizer.org}{算法运行可视化}
+	\end{itemize}
 \end{itemize}
 
 \section{论文写作}
@@ -292,16 +371,16 @@ workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds�
 
 \subsection{英语写作}
 \begin{itemize}
-	\item 英语语法检查 \href{https://languagetool.org}{LanguageTool}、\href{https://www.grammarcheck.net}{grammercheck}、\href{https://www.scribens.com}{scribens}、\href{https://www.grammarly.com}{grammerly}、\href{https://www.nounplus.net}{nounplus}
-	\item 查介词搭配等等 \href{https://www.english-corpora.org/coca/}{ Corpus of Contemporary American English}、\href{https://www.lintcode.com}{linggle}
-	\item 近义词 \href{https://www.thesaurus.com}{theasurus}
+	\item 英语语法检查 \href{https://languagetool.org}{LanguageTool}、\underline{\textit{\href{https://www.grammarcheck.net}{grammercheck}}}、\href{https://www.scribens.com}{scribens}、\href{https://www.grammarly.com}{grammerly}、\href{https://www.nounplus.net}{nounplus}
+	\item 查介词搭配等等 \underline{\textit{\href{https://www.english-corpora.org/coca/}{ Corpus of Contemporary American English}}}、\href{https://www.lintcode.com}{linggle}
+	\item 近义词 \underline{\textit{\href{https://www.thesaurus.com}{theasurus}}}
 \end{itemize}
 
 \subsection{科研常用网站}
 \begin{itemize}
-	\item \href{http://www.latexstudio.net/archives/6888.html}{GB/T7714-2015参考文献格式}毕业论文有用
-	\item \href{https://www.52pojie.cn/thread-716675-1-1.html}{一个电路仿真APP}特点是，可以看到电流
-	\item \href{http://naotu.baidu.com/file/97d9cd5ca30672903a3e3321e62c6ed8}{百度脑图}、\href{https://github.com/lonelybag/pwc}{Xmind}
+	\item \href{http://www.latexstudio.net/archives/6888.html}{GB/T7714-2015参考文献格式}\quad 毕业论文参考文献，自动生成
+	\item \href{https://www.52pojie.cn/thread-716675-1-1.html}{一个电路仿真APP}\quad 特点是，可以看到电流
+	\item 思维导图：\href{http://naotu.baidu.com/file/97d9cd5ca30672903a3e3321e62c6ed8}{百度脑图}、\href{https://www.xmind.net/}{Xmind}
 	\item \href{https://mm.edrawsoft.cn/map.html?obj=wxoa3v5wBLcpmgCifx59_Uzk5X4qHU/Personal/未命名文件.emmx}{思维导图}更专业一点
 	\item \href{https://www.processon.com/login;jsessionid=022BCDCA031DD3C240BE7FD87D942F03.jvm1?backUrl=/diagraming/5be7a513e4b0d74dc539976e}{流程图}
 	\item \href{https://ankiweb.net/shared/decks/}{记忆神器}
@@ -310,70 +389,24 @@ workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds�
 	\item \href{https://bigjpg.com}{无损放大图片}
 	\item \href{https://leetcode.com}{Leetcode}以及\href{https://www.lintcode.com/zh-cn/accounts/signup/}{lintcode} 代码训练平台
 	\item \href{https://www.remove.bg}{自动抠图}
-	\item \href{https://algorithm-visualizer.org}{算法运行可视化}
+	\item \href{https://algorithm-visualizer.org}{算法运行可视化}\\
+	      Latex相关：
 	      \begin{itemize}
 		      \item \href{http://detexify.kirelabs.org/classify.html}{手写LaTeX符号}
-		      \item JabRef
-		      \item Excel2Latex
-		      \item MetaPOST
-		      \item Gnuplot
+		      \item \href{http://www.jabref.org}{JabRef}\quad 开源的文献管理软件
+		      \item \href{http://www.latexstudio.net/archives/6992.html}{Excel2Latex}
+		      \item \href{http://www.ursoswald.ch/metapost/introduction.html}{MetaPOST}\quad 矢量绘图软件
+		      \item \href{http://www.gnuplot.info}{Gnuplot}\quad 绘制矢量数据图
+		      \item \href{https://www.tablesgenerator.com/#}{在线绘制表格}
+		      \item \href{http://math.ecnu.edu.cn/~jypan/Teaching/Latex/}{LaTeX 科技排版}
+		      \item \href{http://www.latexstudio.net/}{latex开源小屋}
+		      \item \href{https://github.com/latexstudio}{Latex中文社区Github}
+		      \item \href{https://www.overleaf.com/login}{在线编辑器1}、\href{http://www.math.org.cn/tex/index.html}{在线编辑器2}
+		      \item \href{http://www.bakoma-tex.com}{一个我认为完美的编辑器}\quad 缺点：收费
 	      \end{itemize}
 	\item \href{https://www.stateoftheart.ai}{MIT整理的关于神经网络的论文}
 	\item \href{https://github.com/lonelybag/pwc}{神经网络论文以及源代码}
 \end{itemize}
-
-
-\section{最小配置}
-在此给出一个我常用的最小配置：
-
-\begin{table}[!bt]
-	\renewcommand{\arraystretch}{1.2} %可以让行显得更加宽敞
-	\caption{基本需求最小配置}\label{tab:mini_configure}
-	\vspace{-0.2 cm}
-	\centering
-	\resizebox{0.9\columnwidth}{!}{ %使得表格能够自动缩放每行长度
-		\begin{tabular}{l l l}
-			\hline \hline						   \\ [-3 mm]
-			用途              & 软件                                                                                     \\
-			\hline								   \\ [-3 mm]
-			卸载软件          & \href{http://www.xue51.com/soft/11977.html}{Revo Uninstaller Pro}                        \\
-			文档撰写          & \href{https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/}{\LaTeX} 和 WORD \\
-			撸代码            & \href{https://code.visualstudio.com}{Vscode}                                             \\
-			版本管理+团队协作 & \href{https://git-scm.com}{Git}                                                          \\
-			PDF阅读           & \href{https://www.tracker-software.com/product/pdf-xchange-editor}{PDF-XChange Editor}   \\
-			视频播放          & \href{http://potplayer.daum.net/?lang=zh_CN}{PotPlayer}                                  \\
-			文件搜索          & \href{https://www.listary.com}{Listery}                                                  \\
-			
-			\hline \hline
-		\end{tabular}
-	}
-	\vspace{-0.5cm}
-\end{table}
-
-\begin{table}[!bt]
-	\renewcommand{\arraystretch}{1.2} %可以让行显得更加宽敞
-	\caption{科研需求最小配置}\label{tab:mini_configure_SCI}
-	\vspace{-0.2 cm}
-	\centering
-	\resizebox{0.9\columnwidth}{!}{ %使得表格能够自动缩放每行长度
-		\begin{tabular}{l l l}
-			\hline \hline						   \\ [-3 mm]
-			用途              & 软件                                                                                     \\
-			\hline								   \\ [-3 mm]
-			卸载软件          & \href{http://www.xue51.com/soft/11977.html}{Revo Uninstaller Pro}                        \\
-			文档撰写          & \href{https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/}{\LaTeX} 和 WORD \\
-			撸代码            & \href{https://code.visualstudio.com}{Vscode}                                             \\
-			版本管理+团队协作 & \href{https://git-scm.com}{Git}                                                          \\
-			PDF阅读           & \href{https://www.tracker-software.com/product/pdf-xchange-editor}{PDF-XChange Editor}   \\
-			视频播放          & \href{http://potplayer.daum.net/?lang=zh_CN}{PotPlayer}                                  \\
-			文件搜索          & \href{https://www.listary.com}{Listery}                                                  \\
-			\hline
-
-			\hline \hline
-		\end{tabular}
-	}
-	\vspace{-0.5cm}
-\end{table}
 
 \section{绘图}
 \begin{itemize}
@@ -388,7 +421,13 @@ workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds�
 	\item \href{https://affinity.serif.com/zh-cn/designer/}{affinity designer}
 	\item SPSS
 	\item NVivo
-	\item
+	\item 电路图绘制：
+	      \begin{itemize}
+		      \item Viso
+		      \item Latex
+		      \item Python
+		      \item
+	      \end{itemize}
 \end{itemize}
 
 \section{其他}
@@ -397,6 +436,37 @@ workflow源于Github，因此先对Github进行介绍。Github由Linus Torvalds�
 	\item \href{https://www.scimagojr.com}{SCI期刊}
 	\item \href{http://libgen.io}{免费专业书籍}
 \end{itemize}
+
+\section{最小配置}
+在此给出一个我常用的\emph{最小基础配置}：
+\begin{itemize}
+	\item 杀毒软件：\href{https://www.huorong.cn}{火绒}
+	\item 卸载软件：\href{http://www.xue51.com/soft/11977.html}{Revo Uninstaller Pro}
+	\item 文档撰写：\href{https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/}{\LaTeX} 和 WORD
+	\item PDF阅读：\href{https://www.tracker-software.com/product/pdf-xchange-editor}{PDF-XChange Editor}
+	\item 视频播放：\href{http://potplayer.daum.net/?lang=zh_CN}{PotPlayer}
+	\item 文件搜索：\href{https://www.listary.com}{Listery}
+	\item 撸代码： \href{https://code.visualstudio.com}{VScode}
+	\item 版本管理+团队协作：\href{https://git-scm.com}{Git}
+\end{itemize}
+
+\emph{最小科研配置}：
+\begin{itemize}
+	\item 计算与仿真：
+	      \begin{itemize}
+		      \item 数值计算：Matlab、Mathematica
+		      \item 电路仿真：ADS、Simulink
+		      \item 电磁场仿真：Comsol
+	      \end{itemize}
+	\item 文档撰写：
+	      \begin{itemize}
+		      \item Latex
+		      \item Endnote
+		      \item \href{https://zhuanlan.zhihu.com/p/20902898}{HistCite Pro 2.1}
+	      \end{itemize}
+\end{itemize}
+
+
 
 \backmatter
 \chapter*{跋}\addcontentsline{toc}{chapter⟩}{跋}
