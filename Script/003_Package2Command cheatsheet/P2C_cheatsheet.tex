@@ -1,7 +1,147 @@
-\documentclass{article}
+\documentclass[UTF8,oneside]{ctexbook}
+
+% \usepackage[utf8]{inputenc} %指定编码方式为utf8
+\usepackage[titles]{tocloft} % 目录
+% \usepackage{fancyhdr} % 页眉页脚
+% \pagestyle{fancy} % 美化页眉
+%\usepackage{appendix}
+\usepackage{graphicx} % An example of a floating figure using the graphicx package.
+\usepackage{animate} % 动画
+\usepackage[caption=true, font=footnotesize]{subfig}% 前面的[]为了防止覆盖IEEE默认选项
+\usepackage{float} %禁止浮动
+\usepackage{enumerate} % 列表
+\usepackage{xpinyin} % 注音
+\usepackage{amsmath} % 数学
+\usepackage{listings} %抄录环境
+\usepackage{color} %定义颜色
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+
+\usepackage[colorlinks,linkcolor=blue]{hyperref} % 超链接
+\usepackage[margin=3cm]{geometry} % 更改页边距
+
+
+\title{{\LaTeX 宏包、指令与结果}\\
+\large{V1.0}}
+\author{\href{https://github.com/lonelybag?tab=repositories}{\itshape{@LonelyBag}}\\ {\itshape \large{Edite by \href{https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/}{\LaTeX}}}}
 
 \begin{document}
-\noindent$\backslash usepackage\{hyperref\}$\\
-$\backslash href\{https://github.com/lonelybag/Latex\_lonelybag\}$
+% ----------- 封面 ---------------
+\frontmatter
+\maketitle
+% ----------- 目录 ---------------
+\tableofcontents
+\mainmatter
+%--------- 定义代码抄录格式 -------
+\lstset{
+	backgroundcolor=\color{backcolour},
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,
+	breaklines=true, % 允许断行                 
+	captionpos=b,
+	keepspaces=true,
+	numbers=left,
+	numbersep=5pt,
+	showspaces=false,
+	showstringspaces=false,
+	showtabs=false,
+	tabsize=2
+}
 
+% ----------- 正文 ---------------
+\chapter{环境}
+% \iffalse \section{========= 不编译 开 =========}
+% \section{========= 不编译 关 =========}\fi
+% \section{========= 结束 =========}\end{document}
+\section{英文环境}
+
+
+\section{中文环境}
+
+\section{常用指令}
+\subsection{超链接}
+\begin{lstlisting}[language=Matlab,frame=single]
+\usepackage{hyperref}
+\href{https://github.com/lonelybag/Latex_lonelybag}{Lonelybag的GitHub}
+\end{lstlisting}
+编译结果：\\
+\href{https://github.com/lonelybag/Latex_lonelybag}{Lonelybag的GitHub}
+
+\subsection{标尺盒子}
+\begin{lstlisting}[language=Matlab,frame=single]
+% 无宏包
+% 用法：\rule[raise]{width}{thickness}
+
+\begin{tabular}{|c|}
+    \hline
+    \rule[-1em]{1em}{1ex}下沉当前字号下M的宽度 \\
+    \hline
+    \rule[-7pt]{1pt}{28pt}下沉7磅       \\
+    \hline
+    无盒子                             \\
+\end{tabular}
+\end{lstlisting}
+编译结果：\\
+\begin{tabular}{|c|}
+    \hline
+    \rule[-1em]{1em}{1ex}下沉当前字号下M的宽度 \\
+    \hline
+    下沉7磅\rule[-7pt]{1pt}{28pt}   \\
+    \hline
+    无盒子                        \\
+    \hline
+\end{tabular}
+
+\subsection{抄录}
+\begin{lstlisting}[language=Matlab,frame=single]
+\usepackage{listings} %抄录环境
+% 必须预先定义抄录格式
+\lstset{
+	backgroundcolor=\color{backcolour},
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,
+	breaklines=true, % 允许断行                 
+	captionpos=b,
+	keepspaces=true,
+	numbers=none,
+	numbersep=5pt,
+	showspaces=false,
+	showstringspaces=false,
+	showtabs=false,
+	tabsize=2
+}
+% 脚本
+\begin{lstlisting}[language=Matlab,frame=single]
+这是抄录内容
+end{lstlisting}   
+\end{lstlisting}
+编译结果：\\
+\begin{lstlisting}[language=Matlab,frame=single]
+这是抄录内容
+\end{lstlisting}
+
+\subsection{动画}
+\begin{lstlisting}[language=Matlab,frame=single]
+\usepackage{animate} % 动画
+\usepackage{float} % 禁止浮动，可将figure参数设置为H，否则只能是hbt
+
+\begin{figure}[H]
+    \centering
+    \animategraphics[autoplay, loop , width=0.4\linewidth]{10}{Pics//workspace//}{1}{30}
+    \vspace{-0.3cm}
+    \caption{command window - base workspace}\label{fig:1}
+\end{figure}
+\end{lstlisting}
+编译结果：\\
 \end{document}
