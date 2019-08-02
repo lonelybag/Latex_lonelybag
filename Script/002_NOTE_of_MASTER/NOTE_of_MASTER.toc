@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {1}快速抓住研究热点}{6}{section.0.1}% 
+\contentsline {subsection}{\numberline {1.1}传统方式}{6}{subsection.0.1.1}% 
+\contentsline {subsection}{\numberline {1.2}辅助工具}{6}{subsection.0.1.2}% 
+\contentsline {subsubsection}{安装}{7}{subsubsection*.2}% 
+\contentsline {subsubsection}{导出文献}{7}{subsubsection*.3}% 
+\contentsline {section}{\numberline {2}常用网站}{10}{section.0.2}% 
+\contentsline {section}{\numberline {3}COMSOL}{10}{section.0.3}% 
+\contentsline {section}{\numberline {4}基本}{10}{section.0.4}% 
+\contentsline {subsection}{\numberline {4.1}杀毒+垃圾整理+系统优化}{10}{subsection.0.4.1}% 
+\contentsline {subsection}{\numberline {4.2}卸载类}{10}{subsection.0.4.2}% 
+\contentsline {subsection}{\numberline {4.3}下载}{11}{subsection.0.4.3}% 
+\contentsline {subsection}{\numberline {4.4}制作文档类}{11}{subsection.0.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Chrome插件类}{12}{subsection.0.4.5}% 
+\contentsline {subsection}{\numberline {4.6}常用网站}{12}{subsection.0.4.6}% 
+\contentsline {section}{\numberline {5}论文写作}{13}{section.0.5}% 
+\contentsline {subsection}{\numberline {5.1}制作文档类}{13}{subsection.0.5.1}% 
+\contentsline {subsection}{\numberline {5.2}Chrome插件类}{13}{subsection.0.5.2}% 
+\contentsline {subsection}{\numberline {5.3}英语写作}{13}{subsection.0.5.3}% 
+\contentsline {subsection}{\numberline {5.4}科研常用网站}{13}{subsection.0.5.4}% 
+\contentsline {subsection}{\numberline {5.5}绘图}{15}{subsection.0.5.5}% 
+\contentsline {section}{\numberline {6}其他}{16}{section.0.6}% 
+\contentsline {section}{\numberline {7}最小配置}{16}{section.0.7}% 
+\contentsline {chapter}{跋}{17}{chapter*.4}% 
+\contentsline {chapter}{附录 A}{19}{appendix*.8}% 
+\contentsline {section}{\numberline {1}文献写作}{19}{section.Alph0.1}% 
+\contentsline {subsection}{\numberline {1.1}写作工具}{19}{subsection.Alph0.1.1}% 
+\contentsline {subsection}{\numberline {1.2}写作流程}{19}{subsection.Alph0.1.2}% 
+\contentsline {subsection}{\numberline {1.3}参考文献}{19}{subsection.Alph0.1.3}% 
