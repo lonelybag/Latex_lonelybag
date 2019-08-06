@@ -12,14 +12,24 @@
 % 不需要版本信息，直接注释即可
 \version{0.1}
 % 不需要时间信息的话，需要把 \today 删除。
-\date{}
+\date{\today}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-基于电磁场理论推导磁偶极子和电偶极子的近场传输距离极限。
-\keywords{电磁场{}磁偶极子{}电偶极子{}近场}
+  基于电磁场理论推导磁偶极子和电偶极子的近场传输距离极限。
+  \begin{itemize}
+    \item 目的：探究感应式无线电能传输的传输距离极限
+    \item 研究方法：基于电磁场理论推导磁偶极子和电偶极子的电磁场表达式并绘制函数图像，总结近场电磁场空间时间分布规律
+    \item 结论：
+    \begin{itemize}
+      \item 空间特性：近场范围是$\frac{\lambda}{2\pi}$
+      \item 时间特性：近场中，电磁场呈现驻波特性
+    \end{itemize}
+  \end{itemize}
+
+\keywords{电磁场，磁偶极子，电偶极子，近场}
 \end{abstract}
 
 \section{电偶极子}
@@ -120,6 +130,6 @@
 
 \nocite{*}
 
-\bibliography{wpref}
+\bibliography{ref}
 
 \end{document}

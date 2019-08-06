@@ -1,9 +1,10 @@
 \documentclass[UTF8,oneside]{ctexbook}
 
 \usepackage[titles]{tocloft} % 目录
-%\usepackage{graphicx} % An example of a floating figure using the graphicx package.
+\usepackage{graphicx} % figure浮动体
 \usepackage{animate} % 动画
 \usepackage[caption=true, font=footnotesize]{subfig}% 前面的[]为了防止覆盖IEEE默认选项
+
 \usepackage{float} %禁止浮动
 \usepackage{enumerate} % 列表
 
@@ -318,7 +319,7 @@ classoffset=1,morekeywords={ctexbook},keywordstyle=\color{keywordcolor},% classo
 \section{插图}
 \subsection{一张图}
 \begin{mybox}[]{一张图}
-% \usepackage{graphicx} % An example of a floating figure using the graphicx package.
+% \usepackage{graphicx} % figure浮动体
 % \usepackage{float} %禁止浮动
 
 \begin{figure}[H]
@@ -330,10 +331,10 @@ classoffset=1,morekeywords={ctexbook},keywordstyle=\color{keywordcolor},% classo
 \end{mybox}
 
 
-\subsection{m行n列张图}
-\begin{mybox}[]{m行n列张图}
+\subsection{1列}
+\begin{mybox}[]{1列}
 % \usepackage[caption=true, font=footnotesize]{subfig}% 前面的[]为了防止覆盖IEEE默认选项
-% \usepackage{graphicx} % An example of a floating figure using the graphicx package.
+% \usepackage{graphicx} % figure浮动体
 % \usepackage{float} %禁止浮动
 
 \begin{figure}[H]
@@ -347,9 +348,79 @@ classoffset=1,morekeywords={ctexbook},keywordstyle=\color{keywordcolor},% classo
 \end{figure}
 \end{mybox}
 
+\subsection{2行2列}
+\begin{mybox}[]{2行2列}
+% \usepackage[caption=true, font=footnotesize]{subfig}% 前面的[]为了防止覆盖IEEE默认选项
+% \usepackage{graphicx} % figure浮动体
+% \usepackage{float} %禁止浮动
+
+\begin{figure}[H]
+  \begin{minipage}{0.48\linewidth}
+    \centerline{\includegraphics[width=4.0cm]{Fig//base_workspace.png}}
+    \centerline{(a)}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{.48\linewidth}
+    \centerline{\includegraphics[width=4.0cm]{Fig//base_workspace.png}}
+    \centerline{(b)}
+  \end{minipage}
+  \vfill
+  \begin{minipage}{0.48\linewidth}
+    \centerline{\includegraphics[width=4.0cm]{Fig//base_workspace.png}}
+    \centerline{(c)}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\linewidth}
+    \centerline{\includegraphics[width=4.0cm]{Fig//base_workspace.png}}
+    \centerline{(d)}
+  \end{minipage}
+  \caption{2$\times$2}\label{fig:res}
+  \end{figure}
+\end{mybox}
+
+
+\begin{mybox}[]{按列分组排列}
+% \usepackage[caption=true, font=footnotesize]{subfig}% 前面的[]为了防止覆盖IEEE默认选项
+% \usepackage{graphicx} % figure浮动体
+% \usepackage{float} %禁止浮动
+
+\begin{figure}[H]
+  \centering
+  \subfloat[第一列]{
+  \begin{minipage}[b]{0.23\linewidth}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}\vspace{4pt}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}\vspace{4pt}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}\vspace{4pt}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}
+  \end{minipage}}
+  \subfloat[第二列]{
+  \begin{minipage}[b]{0.23\linewidth}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}\vspace{4pt}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}\vspace{4pt}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}\vspace{4pt}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}
+  \end{minipage}}
+  \subfloat[第三列]{
+  \begin{minipage}[b]{0.23\linewidth}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}\vspace{4pt}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}\vspace{4pt}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}\vspace{4pt}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}
+  \end{minipage}}
+  \subfloat[第四列]{
+  \begin{minipage}[b]{0.23\linewidth}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}\vspace{4pt}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}\vspace{4pt}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}\vspace{4pt}
+    \includegraphics[width=1\linewidth]{Fig//base_workspace.png}
+  \end{minipage}}
+  \caption{按列排列}
+\end{figure}
+\end{mybox}
+
 \subsection{动画}
 \begin{mybox}[]{动画}
-% \usepackage{graphicx} % An example of a floating figure using the graphicx package.
+% \usepackage{graphicx} % figure浮动体
 % \usepackage{animate} % 动画
 % \usepackage{float} % 禁止浮动，可将figure参数设置为H，否则只能是hbt
 
@@ -360,6 +431,8 @@ classoffset=1,morekeywords={ctexbook},keywordstyle=\color{keywordcolor},% classo
   \caption{终端短路}\label{fig:reflected1}
 \end{figure}
 \end{mybox}
+
+
 
 
 \end{document}

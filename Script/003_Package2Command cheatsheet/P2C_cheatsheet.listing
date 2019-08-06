@@ -1,4 +1,4 @@
-% \usepackage{graphicx} % An example of a floating figure using the graphicx package.
+% \usepackage{graphicx} % figure浮动体
 % \usepackage{animate} % 动画
 % \usepackage{float} % 禁止浮动，可将figure参数设置为H，否则只能是hbt
 
