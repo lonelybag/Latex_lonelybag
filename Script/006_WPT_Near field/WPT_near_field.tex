@@ -10,7 +10,7 @@
 % \institute{\href{https://elegantlatex.org/}{Elegant\LaTeX{} 项目组}}
 
 % 不需要版本信息，直接注释即可
-\version{0.1}
+\version{0.2}
 % 不需要时间信息的话，需要把 \today 删除。
 \date{\today}
 
@@ -38,6 +38,13 @@
   \item $v=\frac{1}{\sqrt{LC}}=\frac{1}{\sqrt{\mu \epsilon}}$ - 波速
   \item $\eta=\sqrt{\frac{L}{C}}=\sqrt{\frac{\mu}{\epsilon}}$ - 特征阻抗
   \item $\widetilde{I}$ - 电流幅值
+  \item 常数：
+  \begin{itemize}
+    \item ${\epsilon}_0=4\pi \times 10^{-7} F / m$
+    \item $C = 3 \times 10^8 m/s$
+    \item ${\mu}_0 = \frac{1}{{\epsilon}_0 C^2}$ 
+  \end{itemize}
+  
 \end{itemize}
 \subsection{理论推导}
 \begin{figure}[ht]
@@ -46,7 +53,7 @@
   \vspace{-0.3cm}
   \caption{电偶极子}\label{fig:Hertazian_Dipole}
 \end{figure}
-首先推导磁场
+首先推导磁场\cite{B1,B2}
 \begin{equation}
   \begin{aligned}
     \vec{H} &= \frac{1}{\mu}\left[\nabla\times \vec{A} \right] \\
@@ -128,7 +135,7 @@
 \end{equation}
 因此可以认为，近场区为距离偶极子$\frac{\lambda}{2\pi}$以内的区域。
 
-\nocite{*}
+% \nocite{*}
 
 \bibliography{ref}
 
